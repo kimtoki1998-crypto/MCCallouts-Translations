@@ -1,0 +1,70 @@
+<Shoplifting>
+
+    <General>
+        <Text>เหตุลักขโมยในร้านค้า</Text>
+        <Text>เจ้าของร้านได้ขอความช่วยเหลือจากตำรวจ</Text>
+        
+        <Text>~HC_64~เจ้าของร้าน~s~:</Text>
+        <Text>~y~คุณ~s~:</Text>
+    </General>
+
+    <GetInfos>
+        <Dialogue>สวัสดี ฉันเป็นเจ้าหน้าที่จากสถานีตำรวจท้องถิ่น</Dialogue>
+        <Dialogue>คุณโทรหาเราเรื่องการลักขโมยในร้านใช่ไหม?</Dialogue>
+        <Dialogue>สวัสดี! ใช่เลย ผู้ต้องสงสัยเพิ่งออกไปเมื่อไม่กี่นาทีก่อน!</Dialogue>
+        <Dialogue>เจ้าหมอนั่นขโมยของไปหลายอย่าง เขาถือถุงที่ใส่ของพวกนั้นอยู่</Dialogue>
+        <Dialogue>ผู้ต้องสงสัยมีลักษณะเป็นอย่างไร?</Dialogue>
+
+        <!-- {1}: ShoplHelper.Background() -->
+        <Dialogue>เขาเป็นผู้ชายผิวดำ</Dialogue>
+        <Dialogue>เขาเป็นผู้ชายผิวขาว</Dialogue>
+
+        <!-- {1}: {Suspect.GetRoundAge()} = {10} -->
+        <Dialogue>อายุประมาณ {10} ปี</Dialogue>
+
+        <!-- {2}: ShoplHelper.TShirt() -->
+        <Dialogue>เขาสวมเสื้อกล้ามสีขาว</Dialogue>
+        <Dialogue>เขาสวมเสื้อกล้ามสีเทา</Dialogue>
+        <Dialogue>เขาสวมเสื้อแจ็กเก็ตหนังสีดำ</Dialogue>
+
+        <!-- {2}: ShoplHelper.Pants() -->
+        <Dialogue>และสวมกางเกงลายตาราง</Dialogue>
+        <Dialogue>และสวมกางเกงสีขาว</Dialogue>
+        <Dialogue>และสวมกางเกงยีนส์สีฟ้าอ่อน</Dialogue>
+
+        <Dialogue>ฉันจับภาพเขาได้จากกล้องวงจรปิด นี่คือรูปของเขา!</Dialogue>
+        <Dialogue>ผู้ต้องสงสัยหลบหนีไปด้วยการเดินเท้า!</Dialogue>
+        <Dialogue>โอเค ขอบคุณ ลาก่อน!</Dialogue>
+    </GetInfos>
+
+    <LocationUpdater>
+        <Text>~y~ตำแหน่ง~s~ถูกอัปเดตแล้ว!</Text> 
+        <Text>~g~ตำแหน่ง~s~ถูกอัปเดตแล้ว!</Text>
+        <Text>พบ~r~ผู้ต้องสงสัย~s~แล้ว จับกุมเขาซะ!</Text>
+    </LocationUpdater>
+
+    <Mugshot>
+        <Text>ชายผิวดำ</Text>
+        <Text>เสื้อกล้ามสีขาว</Text>
+
+        <Text>ชายผิวขาว</Text>
+        <Text>เสื้อกล้ามสีเทา</Text>
+
+        <Text>เสื้อแจ็กเก็ตหนังสีดำ</Text>
+
+        <Text>~h~รายละเอียดผู้ต้องสงสัย~h~</Text>
+
+        <Text>กด ~y~J~s~ ได้ทุกเมื่อเพื่อดู~y~รูปภาพ~s~อีกครั้ง!</Text>
+    </Mugshot>
+
+    <SearchForSuspect>
+        <Text>ตอนนี้ค้นหาผู้ต้องสงสัยใน~y~พื้นที่~s~ที่ถูก~y~ทำเครื่องหมาย~s~ไว้บน GPS ของคุณ</Text>
+        <Text>ค้นหาผู้ต้องสงสัยและดำเนินการต่อ</Text>
+    </SearchForSuspect>
+
+    <WaitForEnd>
+        <Text>ผู้ต้องสงสัยเสียชีวิตแล้ว</Text>
+        <Text>~g~โค้ด 4</Text>
+    </WaitForEnd>
+
+</Shoplifting>

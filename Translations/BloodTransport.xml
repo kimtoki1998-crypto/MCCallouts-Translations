@@ -1,0 +1,26 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>การขนส่งเลือดฉุกเฉิน</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>มีผู้ป่วยต้องการเลือดอย่างเร่งด่วน</CALLOUTADVISORY>
+    <TASK>ขับรถไปยังจุดหมาย</TASK>
+    <STATE>
+        <PICKUPBAG>
+            <TEXT>รับถุงเลือดจากเจ้าหน้าที่แพทย์ แล้วนำไปเก็บไว้ที่ท้ายรถของคุณ</TEXT>
+        </PICKUPBAG>
+        <PUTBAGINTRUNK>
+            <TEXT>กด ~y~{Y}~s~ เพื่อใส่ถุงเลือดไว้ในท้ายรถ</TEXT>
+        </PUTBAGINTRUNK>
+        <DRIVETODESTINATIONHOSPITAL>
+            <TEXT>ตอนนี้ขับรถไปที่โรงพยาบาล พวกเขากำลังรอการส่งมอบจากคุณอยู่แล้ว</TEXT>
+        </DRIVETODESTINATIONHOSPITAL>
+        <GRABFROMTRUNK>
+            <TEXT>หยิบ ~r~ถุงเลือด~s~ จากท้ายรถด้วย ~y~{Y}~s~</TEXT>
+        </GRABFROMTRUNK>
+        <GIVEBAGTODOC>
+            <TEXT>ตอนนี้นำถุงเลือดไปให้หมอ!</TEXT>
+        </GIVEBAGTODOC>
+        <AUTOEND>
+            <TEXT>คุณได้ ~g~ส่งมอบ~s~ ~r~ถุงเลือด~s~ สำเร็จแล้ว!</TEXT>
+            <TEXT>{CalloutMessage} สิ้นสุดแล้ว</TEXT>
+        </AUTOEND>
+    </STATE>
+</CALLOUT>

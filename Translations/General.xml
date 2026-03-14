@@ -1,0 +1,9 @@
+<General>
+    <UpdateChecker>
+        <Text>เวอร์ชันล่าสุดของ MCCallouts c; </Text>
+        <Text>เวอร์ชันเบต้า/เวอร์ชันในอนาคตของ MCCallouts c: </Text>
+        <Text>~r~ตรวจพบว่าเป็นเวอร์ชันเก่า.~w~~n~กรุณาอัปเดตเมื่อสะดวก!</Text>
+        <Text>~y~โหลด MCCallouts แล้ว~w~ แต่เรา ~r~ไม่สามารถตรวจสอบ~w~ การอัปเดตได้</Text>
+        <Text>~y~MCCallouts ~g~โหลดเรียบร้อยแล้ว~w~!~n~ขอให้สนุกกับการออกตรวจ!</Text>
+    </UpdateChecker>
+</General>

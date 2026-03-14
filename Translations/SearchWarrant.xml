@@ -1,0 +1,45 @@
+<SearchWarrant>
+
+    <General>
+        <Text>มีการออกหมายค้นแล้ว</Text>
+        <Text>ค้นหายาเสพติด อาวุธ เงิน กระดูก และบุคคลภายในบ้าน</Text>
+        <Text>ค้นหา {ChosenEvidenceTranslation} ภายในอาคาร!</Text>
+        <Text>เราได้รับ~r~ข้อมูล~s~เกี่ยวกับตำแหน่งที่หลักฐาน~r~ถูกซ่อนอยู่~r~แล้ว</Text>
+        <Text>เราได้รับข้อมูลว่าขณะนี้ผู้ต้องสงสัยกำลังทำงานอยู่ ชื่อของเขาคือ {SuspectName}</Text>
+        <Text>พบหลักฐาน:</Text>
+    </General>
+
+    <Persons>
+        <Text>คนสวน</Text>
+        <Text>คุณ</Text>
+    </Persons>
+
+    <EvidTranslation>
+        <Text>เครื่องประดับ</Text>
+        <Text>ทองคำ</Text>
+        <Text>เงิน</Text>
+        <Text>อาวุธ</Text>
+        <Text>ยาเสพติด</Text>
+    </EvidTranslation>
+
+    <D_Gardener>
+        <Dialogue>สวัสดีครับ เรามีหมายค้นสำหรับทรัพย์สินนี้และทั้งบ้าน</Dialogue>
+        <Dialogue>อ้อ สวัสดีครับ ผมเป็นแค่คนสวนที่นี่ ตอนนี้ไม่มีใครอยู่บ้าน แต่ประตูเปิดอยู่</Dialogue>
+    </D_Gardener>
+
+    <EvidenceChecker>
+        <Text>พบหลักฐานแล้ว!</Text>
+        <Text>~g~พบหลักฐานครบทั้งหมดแล้ว! ทำได้ดีมาก!~s~</Text>
+    </EvidenceChecker>
+
+    <SuspectAction>
+        <Dialogue>ผู้ต้องสงสัยกำลังหลบหนีด้วยการวิ่งเท้า ดิสแพตช์!</Dialogue>
+        <Dialogue>อ่า เวรเอ๊ย คุณจับฉันได้แล้ว...</Dialogue>
+        <Dialogue>~r~ผู้ต้องสงสัย:~s~ ไปตายซะไอ้ตำรวจ ฉันจะยิงฝ่าออกไป!</Dialogue>
+    </SuspectAction>
+
+    <End>
+        <Text>เหตุการณ์นี้เป็น Code 4 แล้ว</Text>
+    </End>
+
+</SearchWarrant>

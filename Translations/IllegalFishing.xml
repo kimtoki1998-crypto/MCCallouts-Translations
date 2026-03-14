@@ -1,0 +1,67 @@
+<IllegalFishing>
+
+    <General>
+        <Text>มีรายงานการทำประมงผิดกฎหมายที่อาจเกิดขึ้น</Text>
+    </General>
+
+    <Setup>
+        <Dialogue>กด {0} เพื่อพูดคุย</Dialogue>
+        <Dialogue>~y~คุณ~s~: สวัสดี ผมเป็นเจ้าหน้าที่จากหน่วยงานท้องถิ่น.</Dialogue>
+        <Dialogue>~y~คุณ~s~: เราได้รับรายงานเกี่ยวกับการทำประมงผิดกฎหมาย.</Dialogue>
+        <Dialogue>~b~ผู้ต้องสงสัย~s~: โอ้ ผมอยู่คนเดียวที่นี่ ไม่มีอะไรผิดกฎหมาย แค่มาตกปลาเฉย ๆ...</Dialogue>
+        <Dialogue>~y~คุณ~s~: ตอนนี้คุณจับปลาได้บ้างหรือยัง?</Dialogue>
+        <Dialogue>~b~ผู้ต้องสงสัย~s~: ได้มาสองสามตัวแล้ว.</Dialogue>
+        <Dialogue>~y~คุณ~s~: โอเค ผมขอดูใบอนุญาตตกปลาของคุณหน่อย.</Dialogue>
+        <Dialogue>กด {0} เพื่อเปิดเมนูโต้ตอบ และใช้ STP เพื่อตรวจสอบบัตรประชาชน</Dialogue>
+        <Dialogue>กด {0} และ {1} เพื่อเปิดเมนูโต้ตอบ และใช้ STP เพื่อตรวจสอบบัตรประชาชน</Dialogue>
+        <Dialogue>กด {0} เพื่อเปิดเมนูโต้ตอบ</Dialogue>
+        <Dialogue>กด {0} และ {1} เพื่อเปิดเมนูโต้ตอบ</Dialogue>
+    </Setup>
+    
+    <ConversationAfterCheckingLicense>
+        <Dialogue>~y~คุณ~s~: โอเค ผมตรวจสอบข้อมูลของคุณแล้ว.</Dialogue>
+        <Dialogue>~y~คุณ~s~: ใบอนุญาตตกปลาของคุณยังใช้ได้ ตอนนี้ทุกอย่างปกติดี!</Dialogue>
+        <Dialogue>~y~คุณ~s~: ใบอนุญาตตกปลาของคุณถูกระงับ คุณไม่มีสิทธิ์ตกปลา!</Dialogue>
+        <Dialogue>~y~คุณ~s~: นอกจากนี้ประวัติของคุณก็ปกติดี ไม่มีอะไรน่ากังวล.</Dialogue>
+        <Dialogue>~y~คุณ~s~: และคุณก็ไม่มีหมายจับด้วย.</Dialogue>
+        <Dialogue>~y~คุณ~s~: แต่ในฐานข้อมูลของผมพบว่าคุณมีหมายจับ คุณต้องไปกับเรา.</Dialogue>
+        <Dialogue>~y~คุณ~s~: คุณไม่ได้แจ้งเรื่องหมายจับของคุณ ตอนนี้คุณถูกจับแล้ว.</Dialogue>
+        <Dialogue>จับกุมผู้ต้องสงสัย.</Dialogue>
+        <Dialogue>เมื่อเสร็จแล้ว ให้ปล่อยตัวผู้ต้องสงสัยและกลับไปลาดตระเวนต่อ.</Dialogue>
+        <Dialogue>~y~คุณ~s~: คุณจะได้รับใบสั่งข้อหาทำประมงผิดกฎหมาย.</Dialogue>
+        <Dialogue>~y~คุณ~s~: อย่ากลับมาที่นี่อีก ไม่งั้นผมจะพาคุณเข้าคุก ซึ่งเราทั้งคู่ก็คงไม่อยากให้เป็นแบบนั้น.</Dialogue>
+        <Dialogue>ออกใบสั่งให้ผู้ต้องสงสัยและปล่อยตัวเขา.</Dialogue>
+        <Dialogue>กด {0} อีกครั้งเพื่อพูดคุย</Dialogue>
+    </ConversationAfterCheckingLicense>
+
+    <ConversationAfterPursuitArrest>
+        <Dialogue>~y~คุณ~s~: นั่นมันโง่มากนะ ที่วิ่งหนีเพราะเรื่องแค่นี้...</Dialogue>
+        <Dialogue>~b~ผู้ต้องสงสัย~s~: ตอนนี้มันก็สายไปแล้วอยู่ดี...</Dialogue>
+    </ConversationAfterPursuitArrest>
+
+    <ConversationAndSearch>
+        <Dialogue>~y~คุณ~s~: คุณมีอะไรติดตัวที่อาจทิ่มแทงผมหรือทำให้ผมบาดเจ็บได้ไหม?</Dialogue>
+        <Dialogue>~b~ผู้ต้องสงสัย~s~: ไม่มี...</Dialogue>
+        <Dialogue>ค้นตัวผู้ต้องสงสัย ทำเอกสาร และนำตัวเขาเข้าคุก.</Dialogue>
+    </ConversationAndSearch>
+
+    <End>
+        <Text>ผู้ต้องสงสัยเสียชีวิต.</Text>
+        <Text>กด {0} ได้ตลอดเวลาเพื่อจบคอลเอาต์.</Text>
+        <Text>~r~GTA-Error: ตัวละคร NPC ไม่ถูกต้อง.~s~</Text>
+        <Text>~g~Code 4.~s~</Text>
+    </End>
+
+    <Menu>
+        <Text>เมนูโต้ตอบ</Text>
+        <Text>ตัวเลือก:</Text>
+        <Text>แสดงใบอนุญาตตกปลา</Text>
+        <Text>ชื่อ:</Text>
+        <Text>วันเกิด:</Text>
+        <Text>ใบอนุญาตตกปลา</Text>
+        <Text>แสดงบัตรประชาชน</Text>
+        <Text>~g~ใบอนุญาตถูกต้อง~s~</Text>
+        <Text>~r~ใบอนุญาตถูกระงับ~s~</Text>
+    </Menu>
+
+</IllegalFishing>

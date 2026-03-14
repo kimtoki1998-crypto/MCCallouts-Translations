@@ -1,0 +1,165 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~HC_48~SolveMurder4</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>A corpse has been found next to a farm house in North Yankton</CALLOUTADVISORY>
+    <TASK>Drive to the ~b~scene, the officer~s~ waits there for you.</TASK>
+    <DIALOGUES>
+        <COP1>
+            <DIALOGUE>~b~ตำรวจ:~s~ ยินดีต้อนรับสู่ North Yankton อันหนาวเหน็บและเต็มไปด้วยหิมะ!</DIALOGUE>
+            <DIALOGUE>~b~ตำรวจ:~s~ น่าเสียดายที่เราพบศพอยู่ตรงนั้น เรายังรู้อะไรไม่มากนัก ดังนั้นคุณอาจต้องตรวจค้นที่เกิดเหตุก่อน</DIALOGUE>
+            <DIALOGUE>~b~ตำรวจ:~s~ หลังจากนั้นเรามีผู้ต้องสงสัยอยู่สามคน คุณต้องขับรถไปตามถนนเพื่อไปคุยกับพวกเขา</DIALOGUE>
+            <DIALOGUE>~b~ตำรวจ:~s~ ยังมีเพื่อนบ้านอีกคนที่บอกว่าเขาเห็นอะไรบางอย่างด้วย...</DIALOGUE>
+        </COP1>
+        <COP1_MURDERERCHOSEN>
+            <DIALOGUE>~b~ตำรวจ:~s~ บอกผมมาสิ คุณคิดว่าใครคือฆาตกร?</DIALOGUE>
+            <DIALOGUE>~b~ตำรวจ:~s~ จับกุม~r~ฆาตกร~s~ซะ!</DIALOGUE>
+        </COP1_MURDERERCHOSEN>
+        <SUSPECT1_INNOCENT>
+            <DIALOGUE>~y~คุณ:~s~ สวัสดีครับ ผมมีคำถามจะถามคุณ คุณเป็นผู้ต้องสงสัยในคดีฆาตกรรมที่เพิ่งเกิดขึ้น คุณชื่ออะไร?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฆาตกรรมงั้นเหรอ? แย่มากเลย! ฉันชื่อ James Walker คุณเรียกฉันว่า Jimmy ก็ได้</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณสูบบุหรี่ไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ไม่ และฉันก็ภูมิใจด้วย</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณทำอาชีพอะไร?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันเป็นช่างซ่อมรถ ทำงานเกี่ยวกับรถยนต์</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณดื่มแอลกอฮอล์ไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ไม่ค่อยหรอก บางครั้งก็ดื่มเบียร์</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณมีปืนไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ไม่มี ฉันไม่มี</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณใส่นาฬิกาไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ใส่สิ ฉันมีนาฬิกาหลายเรือน ฉันต้องใช้มันในการทำงาน</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ ตอนที่เหยื่อตาย คุณอยู่ที่ไหน?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันคุยกับลูกค้าคนหนึ่งเรื่องรถเสียของเขา ฉันบอกเขาว่ามันซ่อมไม่ได้แล้ว</DIALOGUE>
+        </SUSPECT1_INNOCENT>
+        <SUSPECT1_GUILTY>
+            <DIALOGUE>~y~คุณ:~s~ สวัสดีครับ คุณตกเป็นผู้ต้องสงสัยว่าฆ่าคนตาย ผมมีคำถามจะถามคุณ มาเริ่มจากชื่อของคุณก่อน</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันไม่ได้ทำอะไรเลยนะ! ฉันชื่อ James Walker เพื่อน ๆ เรียกฉันว่า Jimmy</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณสูบบุหรี่ไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ไม่ และฉันก็ภูมิใจด้วย</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณทำอาชีพอะไร?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันเป็นช่างซ่อมรถ ทำงานเกี่ยวกับรถยนต์</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณดื่มแอลกอฮอล์ไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ไม่ค่อยหรอก บางครั้งก็ดื่มเบียร์</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณมีปืนไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ไม่มี ฉันไม่มี</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณใส่นาฬิกาไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ใส่ ตอนนี้ก็ใส่อยู่... อ้อ ฉันทำมันหายไปแล้ว</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ ตอนที่เหยื่อตาย คุณอยู่ที่ไหน?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉัน... อยู่ในอู่ซ่อมรถ กำลังซ่อมรถอยู่ ฉันเป็นคนสุดท้ายที่อยู่ที่นั่น</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ ตอนเย็นน่ะเหรอ?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ใช่ ฉันมีงานต้องทำเยอะ</DIALOGUE>
+        </SUSPECT1_GUILTY>
+        <SUSPECT2_INNOCENT>
+            <DIALOGUE>~y~คุณ:~s~ สวัสดีครับคุณผู้หญิง คุณตกเป็นผู้ต้องสงสัยว่าฆ่าคนตาย ผมมีคำถามจะถามคุณ มาเริ่มจากชื่อของคุณก่อน</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ อะไรกัน ฆาตกรรมเหรอ? ฉันเนี่ยนะ? ฉันไม่ได้ทำอะไรเลย ฉันชื่อ Lisa Carter</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณสูบบุหรี่ไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ใช่ บางครั้งนะ คุณเคยสูบกัญชาไหม?</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ ...คุณทำงานอะไร?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันทำงานออฟฟิศอยู่ในเมือง</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณดื่มแอลกอฮอล์ไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ใช่ น่าเสียดายที่ดื่มเยอะ บางทีก็วิสกี้ บางทีก็แชมเปญ</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณมีปืนไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันไม่ชอบปืน ดังนั้นไม่มี</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณใส่นาฬิกาไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันมีเรือนหนึ่ง แต่ไม่เคยใส่เลย ทำไมคุณถึงถามล่ะ?</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ ตอนที่เหยื่อตาย คุณอยู่ที่ไหน?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันออกไปข้างนอกกับเพื่อนคนหนึ่ง คุณไปถามเธอได้</DIALOGUE>
+        </SUSPECT2_INNOCENT>
+        <SUSPECT2_GUILTY>
+            <DIALOGUE>~y~คุณ:~s~ สวัสดีครับคุณผู้หญิง คุณตกเป็นผู้ต้องสงสัยว่าฆ่าคนตาย ผมมีคำถามจะถามคุณ มาเริ่มจากชื่อของคุณก่อน</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ อะไรกัน ฆาตกรรมเหรอ? ฉันเนี่ยนะ? ฉันไม่ได้ทำอะไรเลย ฉันชื่อ Lisa Carter</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณเป็นคนสูบบุหรี่ไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ใช่ บางครั้งฉันสูบ คุณสูบกัญชาไหม?</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ ...คุณทำงานอะไร?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันทำงานออฟฟิศอยู่ในเมือง</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณดื่มแอลกอฮอล์เป็นประจำไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ใช่ น่าเสียดายที่ดื่มเยอะ บางทีก็วิสกี้ บางทีก็แชมเปญ</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณพกปืนไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันไม่ชอบปืน ดังนั้นไม่มี</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณมีนาฬิกาแบบไหนบ้าง?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันมีอยู่เรือนหนึ่ง แต่ไม่เคยใส่เลย ทำไมคุณถึงถามล่ะ?</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ ตอนที่เหยื่อตาย คุณอยู่ที่ไหน?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันออกไปเที่ยวในคลับ ดื่มไวน์ไปเยอะเลย</DIALOGUE>
+        </SUSPECT2_GUILTY>
+        <SUSPECT3_INNOCENT>
+            <DIALOGUE>~y~คุณ:~s~ สวัสดีครับ ผมมีคำถามจะถามคุณ คุณเป็นผู้ต้องสงสัยในคดีฆาตกรรมที่เพิ่งเกิดขึ้น คุณชื่ออะไร?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ บ้าจริง ฆาตกรรมเหรอ? ฉันเนี่ยนะ? ฉันไม่ได้ทำอะไรเลย ฉันชื่อ Daniel หรือ Danny Reed</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณสูบบุหรี่ไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ก็รู้อยู่ว่าฉันเป็นนายพราน และคุณมีเวลาว่างเยอะ ดังนั้นใช่ ฉันสูบ</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณทำงานอะไร?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ อย่างที่บอก ฉันเป็นนายพราน</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณดื่มแอลกอฮอล์เป็นประจำไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ไม่ได้ดื่มประจำนะ แต่ก็หมายถึงฉันเคยดื่มมาก่อน</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณพกปืนไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ตอนนี้ไม่ได้พก แต่ในฐานะนายพราน คุณก็คงนึกออกว่าฉันมีอยู่บ้าง</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณมีนาฬิกาแบบไหนบ้าง?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันมีเรือนหนึ่ง เป็นรุ่นราคาถูก เพราะถ้ามันพัง ฉันก็ซื้อใหม่ได้เลย</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ ตอนที่เหยื่อตาย คุณอยู่ที่ไหน?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันอยู่บ้านกับภรรยา เรากำลังกินมื้อเย็นกัน</DIALOGUE>
+        </SUSPECT3_INNOCENT>
+        <SUSPECT3_GUILTY>
+            <DIALOGUE>~y~คุณ:~s~ สวัสดีครับ ผมมีคำถามจะถามคุณ คุณเป็นผู้ต้องสงสัยในคดีฆาตกรรมที่เพิ่งเกิดขึ้น คุณชื่ออะไร?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ บ้าจริง ฆาตกรรมเหรอ? ฉันเนี่ยนะ? ฉันไม่ได้ทำอะไรเลย ฉันชื่อ Daniel หรือ Danny Reed</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณสูบบุหรี่ไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ก็รู้อยู่ว่าฉันเป็นนายพราน และคุณมีเวลาว่างเยอะ ดังนั้นใช่ ฉันสูบ</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณทำงานอะไร?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ อย่างที่บอก ฉันเป็นนายพราน</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณดื่มแอลกอฮอล์เป็นประจำไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ไม่ได้ดื่มประจำนะ แต่ก็หมายถึงฉันเคยดื่มมาก่อน</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณพกปืนไหม?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ใช่... ฉันคิดว่าฉันทิ้งมันไว้ในรถ หาไม่เจอเลย</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณมีนาฬิกาแบบไหนบ้าง?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ปกติฉันใส่อยู่เรือนหนึ่ง แต่ตอนนี้หาไม่เจอ โชคดีที่มันไม่แพง</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ ตอนที่เหยื่อตาย คุณอยู่ที่ไหน?</DIALOGUE>
+            <DIALOGUE>~y~ผู้ต้องสงสัย:~s~ ฉันออกไปล่าสัตว์ในป่า แต่น่าเสียดายที่ไม่ได้อะไรเลย</DIALOGUE>
+        </SUSPECT3_GUILTY>
+        <WITNESS_SUSPECT1>
+            <DIALOGUE>~y~คุณ:~s~ สวัสดีครับ คู่หูของผมบอกว่าคุณเห็นอะไรบางอย่างงั้นเหรอ?</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ สวัสดี ใช่เลย ฉันอยากรายงานสิ่งที่ฉันเห็น</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ ฉันได้ยินว่ามีการฆาตกรรมเกิดขึ้นช่วงเวลาที่ฉันขับรถผ่านพอดี</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ ฉันเห็นรถคันหนึ่งขับออกไปจากที่เกิดเหตุ ตอนนั้นแทบไม่มีรถวิ่งเลย</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ มันดูเหมือนรถของบริษัท เป็นรถตู้คันใหญ่</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ หวังว่านี่จะช่วยได้นะ!</DIALOGUE>
+        </WITNESS_SUSPECT1>
+        <WITNESS_SUSPECT2>
+            <DIALOGUE>~y~คุณ:~s~ สวัสดีครับ คู่หูของผมบอกว่าคุณเห็นอะไรบางอย่างงั้นเหรอ?</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ สวัสดี ใช่เลย ฉันอยากรายงานสิ่งที่ฉันเห็น</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ ฉันได้ยินว่ามีคนตายถูกพบอยู่นอกเมือง</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ ฉันเห็นคนคนหนึ่งเดินออกไปจากบริเวณนี้ ถืออะไรบางอย่างอยู่ในมือ</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ มันมีควันออกมา ฉันเดาว่าน่าจะเป็นซิการ์</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ ขอโทษนะ ฉันรู้แค่นี้จริง ๆ!</DIALOGUE>
+        </WITNESS_SUSPECT2>
+        <WITNESS_SUSPECT3>
+            <DIALOGUE>~y~คุณ:~s~ สวัสดีครับ คู่หูของผมบอกว่าคุณเห็นอะไรบางอย่างงั้นเหรอ?</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ สวัสดีตอนเย็น ฉันคิดว่าฉันน่าจะเป็นพยานได้</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ ฉันได้ยินว่ามีการฆาตกรรมเกิดขึ้นช่วงเวลาที่ฉันขับรถผ่านบริเวณนั้นพอดี</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ ฉันเห็นรถคันหนึ่งขับออกไปจากที่เกิดเหตุ ตอนนั้นแทบไม่มีรถวิ่งเลย</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ รถคันนั้นสกปรกมาก และมียางล้อขนาดใหญ่</DIALOGUE>
+            <DIALOGUE>~g~เพื่อนบ้าน:~s~ หวังว่าฉันจะช่วยได้นะ!</DIALOGUE>
+        </WITNESS_SUSPECT3>
+    </DIALOGUES>
+    <STATE>
+        <SEARCHFOREVIDENCE>
+            <TEXT>Search for evidence on the street.</TEXT>
+            <TEXT>Evidence found!</TEXT>
+        </SEARCHFOREVIDENCE>
+        <TALKTOSUSPECTSWITNESS>
+            <TEXT>Talk to the ~y~suspects~s~ and the ~g~witness.</TEXT>
+        </TALKTOSUSPECTSWITNESS>
+        <ARRESTMURDERER>
+            <TEXT>~g~Correct murderer arrested</TEXT>
+            <TEXT>~r~Wrong person arrested</TEXT>
+        </ARRESTMURDERER>
+        <END>
+            <TEXT>{CalloutMessage} has ended.</TEXT>
+        </END>
+    </STATE>
+    <MENU>
+        <TITLE>Murderer</TITLE>
+        <SUBTITLE>The murderer is...</SUBTITLE>
+        <ITEM>James 'Jimmy' Walker, the car mechanic</ITEM>
+        <ITEM>Lisa Carter, the woman</ITEM>
+        <ITEM>Daniel 'Danny' Reed, the hunter</ITEM>
+        <DIALOGUE>~y~คุณ:~s~ James Walker!</DIALOGUE>
+        <DIALOGUE>~y~คุณ:~s~ Lisa Carter!</DIALOGUE>
+        <DIALOGUE>~y~คุณ:~s~ Daniel Reed!</DIALOGUE>
+    </MENU>
+</CALLOUT>

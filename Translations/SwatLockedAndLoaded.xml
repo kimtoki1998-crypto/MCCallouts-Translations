@@ -1,0 +1,20 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ พร้อมลุยเต็มกำลัง</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>ต้องใช้ทีม SWAT ในการเข้ากวาดล้างอาคาร!</CALLOUTADVISORY>
+    <TASKS>
+        <TEXT>ขับรถไปยัง ~o~จุดเกิดเหตุ</TEXT>
+        <TEXT>เข้าไปเคลียร์อาคาร ~r~มีผู้ต้องสงสัยติดอาวุธหลายคนตั้งแนวป้องกันอยู่ข้างใน ~b~มีคู่หูหรือกำลังเสริมจะช่วยได้มาก!</TEXT>
+        <TEXT>กด ~{J}~ เพื่อเข้า/ออก</TEXT>
+    </TASKS>
+    <SUCCESS>
+        <TEXT>~g~กำจัดภัยคุกคามทั้งหมดแล้ว!</TEXT>
+        <TEXT>กด ~{End}~ เพื่อจบเคสแจ้งเหตุ</TEXT>
+    </SUCCESS>
+    <STATS>
+        <TEXT>กำจัดแล้ว:</TEXT>
+        <TEXT>จับกุมแล้ว:</TEXT>
+        <TEXT>~g~ภารกิจสำเร็จ~n~</TEXT>
+        <TEXT>~r~ภารกิจล้มเหลว~n~</TEXT>
+        <TEXT>ภัยคุกคามที่เหลือ:</TEXT>
+    </STATS>
+</CALLOUT>

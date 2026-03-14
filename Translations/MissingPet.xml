@@ -1,0 +1,118 @@
+<MissingPet>
+
+    <General>
+        <Text>สัตว์เลี้ยงหาย</Text>
+        <Text>ผู้แจ้งกำลังกังวลเกี่ยวกับสัตว์เลี้ยงของตน</Text>
+        <Text>ไปหา ~b~~h~ผู้แจ้ง~h~~s~ เพื่อสอบถามรายละเอียดเกี่ยวกับสัตว์เลี้ยงที่หายไป</Text>
+    </General>
+
+    <Persons>
+        <Dialogue>ผู้แจ้ง</Dialogue>
+        <Dialogue>คนขับ</Dialogue>
+        <Dialogue>คุณ</Dialogue>
+        <Dialogue>ผู้บาดเจ็บ</Dialogue>
+    </Persons>
+
+    <Tasks>
+        <Text>กด {Key} เพื่อพูดคุยกับบุคคลนั้น</Text>
+        <Text>มีรายงานว่ามีคนถูกสัตว์ทำร้าย!</Text>
+        <Text>พยายาม ~y~ช็อตไฟฟ้า~s~ สัตว์เลี้ยงเพื่อ ~o~หยุด~s~ การโจมตี!</Text>
+        <Text>~r~สัตว์เลี้ยง~s~ ได้ ~g~หยุดโจมตีแล้ว~s~!</Text>
+        <Text>เรียก ~g~เจ้าหน้าที่ควบคุมสัตว์~s~ มาจัดการสัตว์เลี้ยง</Text>
+        <Text>เรียก ~r~รถพยาบาล~s~ ให้ผู้บาดเจ็บ</Text>
+        <Text>พูดคุยกับผู้บาดเจ็บด้วย</Text>
+        <Text>กลับไปหาผู้แจ้งและแจ้งความคืบหน้าให้เขา/เธอทราบ</Text>
+        <Text>กด ~y~J~s~ เพื่อ ~r~วาร์ป~s~ สัตว์เลี้ยงเข้าไปในรถของคุณ!</Text>
+        <Text>~r~กรุณาขึ้นรถก่อน~s~ แล้วค่อยลองอีกครั้ง</Text>
+    </Tasks>
+
+    <TasksAccident>
+        <Text>มีผู้พบ {PetTypeAsNormalWord} และได้แจ้งรายงานเข้ามา</Text>
+        <Text>ขับไปยังจุดที่พบสัตว์เลี้ยง</Text>
+        <Text>เรียก ~b~~h~เจ้าหน้าที่ชันสูตรศพ~h~~s~ มาจัดการซากสัตว์ แล้วขับกลับไปหา ~b~~h~ผู้แจ้ง~h~~s~ อีกครั้ง</Text>
+    </TasksAccident>
+
+    <Animals>
+        <Text>สุนัขดุร้าย</Text>
+        <Text>สิงโตภูเขา</Text>
+        <Text>สุนัข</Text>
+        <Text>แมว</Text>
+        <Text>โคโยตี้</Text>
+        <Text>กวาง</Text>
+        <Text>กระต่าย</Text>
+        <Text>แม่ไก่</Text>
+        <Text>หมูป่า</Text>
+        <Text>ลิง</Text>
+        <Text>ลิงรีซัส</Text>
+    </Animals>
+
+    <CallerGeneral>
+        <Dialogue>สวัสดี! ฉันหาสัตว์เลี้ยงของฉันไม่เจอ!</Dialogue>
+        <Dialogue>มันหายไปได้หลายนาทีแล้ว แต่มันน่าจะอยู่แถวนี้นี่แหละ!</Dialogue>
+        <Dialogue>โอ้ ขอโทษนะ มันเป็น {PetTypeAsNormalWord} และมันชื่อ {PetName}</Dialogue>
+        <Dialogue>มันวิ่งหลุดไปเฉย ๆ! ได้โปรดช่วยฉันหามันที!</Dialogue>
+    </CallerGeneral>
+
+    <DriverAccident1>
+        <Dialogue>สวัสดีคุณตำรวจ! ดูสิว่าเกิดอะไรขึ้น!</Dialogue>
+        <Dialogue>สัตว์ตัวนั้นวิ่งตัดหน้ารถผมกะทันหัน! ผมไม่มีโอกาสจะหลบเลย!</Dialogue>
+        <Dialogue>รถผมก็เสียหายเหมือนกัน! คุณช่วยเรียกแท็กซี่กับรถลากให้ผมได้ไหม?</Dialogue>
+    </DriverAccident1>
+
+    <DriverAccident2>
+        <Dialogue>สวัสดีครับคุณตำรวจ ผมเสียใจจริง ๆ ผมแค่กำลังขับรถอยู่ แล้วสัตว์ตัวนี้ก็วิ่งตัดถนนออกมา</Dialogue>
+        <Dialogue>ผมตั้งตัวไม่ทันจริง ๆ ให้ตายสิ</Dialogue>
+        <Dialogue>ตราบใดที่คุณไม่เป็นไร ทุกอย่างก็โอเค รถของคุณก็ยังปกติดีด้วย</Dialogue>
+        <Dialogue>ขอบคุณสำหรับการรายงาน เดี๋ยวฉันจะแจ้งเจ้าของให้ ขับรถปลอดภัยนะ</Dialogue>
+    </DriverAccident2>
+
+    <CallerReturnAccident1>
+        <Dialogue>สวัสดี ฉันกลับมาพร้อมข่าวร้าย</Dialogue>
+        <Dialogue>โอ้ไม่นะ เกิดอะไรขึ้นเหรอ?</Dialogue>
+        <Dialogue>สัตว์ตัวนั้นถูกรถชนและไม่รอดชีวิต</Dialogue>
+        <Dialogue>โอ้ น่าเศร้าจัง แต่สัตว์ตัวนั้นไม่ใช่ของฉันนะ เป็นของเพื่อนบ้านฉัน</Dialogue>
+        <Dialogue>เพื่อนบ้านฉันต้องโกรธฉันไปตลอดแน่เลย โอ้ไม่นะ...</Dialogue>
+        <Dialogue>ยังไงก็ขอบคุณที่มาแจ้งให้รู้</Dialogue>
+        <Dialogue>โอ้ไม่... ถึงอย่างนั้นก็ขอให้คุณมีวันที่ดีนะ!</Dialogue>
+    </CallerReturnAccident1>
+
+    <CallerReturnAccident2>
+        <Dialogue>หวัดดี...</Dialogue>
+        <Dialogue>แล้ว... คุณเจอสัตว์เลี้ยงหรือยัง?</Dialogue>
+        <Dialogue>ผมเสียใจด้วย แต่สัตว์เลี้ยงของคุณถูกรถชนโดยอุบัติเหตุ มีคนเพิ่งแจ้งเข้ามา</Dialogue>
+        <Dialogue>ให้ตายเถอะ... มันไม่ใช่สัตว์เลี้ยงของฉันหรอก เพื่อนบ้านฉันไปเที่ยวและฝากฉันดูแลมัน...</Dialogue>
+        <Dialogue>มีอะไรอีกไหมที่ฉันพอจะช่วยได้?</Dialogue>
+        <Dialogue>ไม่ล่ะ ขอบคุณ... แย่จริง... ฉันจะอธิบายเรื่องนี้ยังไงดี...</Dialogue>
+    </CallerReturnAccident2>
+
+    <DriverAttackSafed1>
+        <Dialogue>โอ้พระเจ้า ขอบคุณที่ช่วยฉันไว้!</Dialogue>
+        <Dialogue>ฉันกำลังทำธุระของตัวเองอยู่ดี ๆ แล้วจู่ ๆ สัตว์ตัวนั้นก็พุ่งเข้าใส่ฉัน!</Dialogue>
+        <Dialogue>ไม่เป็นไร ดีแล้วที่คุณปลอดภัย</Dialogue>
+        <Dialogue>ขอบคุณ ขอให้คุณมีวันที่ดี!</Dialogue>
+    </DriverAttackSafed1>
+
+    <CallerAttackReturnPetAlive2>
+        <Dialogue>นี่ ฉันพาสัตว์เลี้ยงของคุณกลับมาแล้ว!</Dialogue>
+        <Dialogue>เยี่ยมเลย ขอบคุณมาก! หายไปไหนมาน่ะ {PetName}?</Dialogue>
+        <Dialogue>แต่ฉันต้องบอกคุณไว้ก่อนว่า สัตว์เลี้ยงของคุณได้ทำร้ายประชาชนผู้บริสุทธิ์คนหนึ่ง</Dialogue>
+        <Dialogue>โอ้ ฉันขอโทษจริง ๆ หวังว่าเขาจะไม่ได้บาดเจ็บมากนะ</Dialogue>
+        <Dialogue>ฉันจำเป็นต้องขอข้อมูลของคุณ เช่น บัตรประชาชน เพื่อจัดทำรายงาน</Dialogue>
+        <Dialogue>พอเสร็จเรียบร้อยแล้ว คุณก็ไปได้</Dialogue>
+    </CallerAttackReturnPetAlive2>
+
+    <CallerAttackReturnPetDead2>
+        <Dialogue>สวัสดี ฉันมีข่าวร้ายจะแจ้งให้คุณทราบ น่าเสียดายที่สัตว์เลี้ยงของคุณได้ทำร้ายประชาชนคนหนึ่ง</Dialogue>
+        <Dialogue>ฉันจำเป็นต้องใช้กำลังถึงตาย และสัตว์เลี้ยงไม่รอดชีวิต</Dialogue>
+        <Dialogue>โอเค... ฉันขอโทษจริง ๆ หวังว่าคนคนนั้นจะไม่เป็นอะไรมากนะ?</Dialogue>
+        <Dialogue>บุคคลนั้นปลอดภัยดี</Dialogue>
+        <Dialogue>ครั้งหน้าฉันจะระมัดระวังเรื่องสัตว์เลี้ยงของฉันให้มากกว่านี้</Dialogue>
+        <Dialogue>สิ่งสำคัญที่สุดคือทุกคนปลอดภัย ขอให้คุณมีวันที่ดี</Dialogue>
+    </CallerAttackReturnPetDead2>
+
+    <End>
+        <Text>กด ~y~End~s~ ได้ทุกเมื่อเพื่อจบคอลเอาต์</Text>
+        <Text>~g~คอลเอาต์เสร็จสิ้น สถานการณ์ปลอดภัยแล้ว</Text>
+    </End>
+
+</MissingPet>

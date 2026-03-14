@@ -1,0 +1,37 @@
+<ZombiesReported>
+
+    <General>
+        <Text>มีพลเรือนรายงานว่าพบเห็นซอมบี้</Text>
+        <Text>ขับรถไปหาพลเรือนผู้แจ้งเหตุ ~r~Code 3~s~</Text>
+    </General>
+
+        <Persons>
+        <Text>คุณ</Text>
+        <Text>พลเรือน</Text>   
+    </Persons>
+
+    <Civilian>
+        <Dialogue>สวัสดี คุณโอเคไหม?</Dialogue>
+        <Dialogue>คุณอาจไม่เชื่อฉัน... ฉันเห็นซอมบี้!</Dialogue>
+        <Dialogue>โอเค ทุกอย่างจะไม่เป็นไร...</Dialogue>
+        <Dialogue>นั่นไงพวกมัน—อ๊ากกก!</Dialogue>
+    </Civilian>
+
+    <Civilian2>
+        <Dialogue>สวัสดี เกิดอะไรขึ้น?</Dialogue>
+        <Dialogue>ฉันว่าฉันคงจะบ้าไปแล้ว... ฉันเห็นซอมบี้เดินเพ่นพ่านอยู่แถวนี้...</Dialogue>
+        <Dialogue>บ้าจริง คุณแน่ใจนะ?</Dialogue>
+        <Dialogue>พระเจ้า นั่นไงพวกมัน—วิ่ง!</Dialogue>
+    </Civilian2>
+
+
+    <Wave>
+        <Text>เวฟ {WaveNumber} กำลังเริ่ม!</Text>
+        <Text>~g~ผ่านเวฟ {WaveNumber} แล้ว</Text>
+        <Text>~o~เวฟ {WaveNumber} จะเริ่มในอีก {time} วินาที~s~</Text>
+        <Text>ยินดีด้วย คุณผ่านครบ 10 เวฟแล้ว</Text>
+        <Text>กด ~y~End~s~ เพื่อจบคอลเอาท์ได้ทุกเมื่อ</Text>
+        <Text>เวฟ {WaveNumber}</Text>
+    </Wave>
+
+</ZombiesReported>

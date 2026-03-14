@@ -1,0 +1,31 @@
+<Burglary>
+
+    <General>
+        <CalloutMessage>พลเมืองแจ้งเหตุลักทรัพย์ในบ้าน</CalloutMessage>
+        <Text>ขับรถไปยังจุดเกิดเหตุลักทรัพย์ และใช้ความระมัดระวัง</Text>
+        <Text>ค้นหาหลักฐาน กด {0} เพื่อเก็บ</Text>
+        <Text>ตรวจสอบบริเวณรอบบ้าน</Text>
+    </General>
+
+    <FalseAlarm>
+        <Dialogue>ศูนย์รับแจ้งเหตุ ที่นี่ไม่มีอะไรเกิดขึ้น</Dialogue>
+        <Dialogue>รับทราบ กลับไปลาดตระเวนต่อได้</Dialogue>
+    </FalseAlarm>
+
+    <AnimalOnScene>
+        <Dialogue>ศูนย์รับแจ้งเหตุ เป็นการแจ้งเหตุผิดพลาด มีแค่สัตว์ตัวหนึ่งสร้างความวุ่นวาย</Dialogue>
+        <Dialogue>รับทราบ กลับไปลาดตระเวนต่อได้</Dialogue>
+    </AnimalOnScene>
+
+    <BurglarLeft>
+        <Dialogue>ศูนย์รับแจ้งเหตุ เราพบร่องรอยของผู้บุกรุกที่นี่ กำลังตรวจค้นพื้นที่</Dialogue>
+        <Dialogue>อืม แบบนี้คงยังช่วยอะไรไม่ได้</Dialogue>
+        <Dialogue>ศูนย์รับแจ้งเหตุ ฉันพบเอกสารของ {DriversName}</Dialogue>
+        <Dialogue>ฉันตรวจพบข้อมูลจาก ALPR ของรถที่ขับเร็วเกินกำหนด เจ้าของคือ {DriversName}</Dialogue>
+    </BurglarLeft>
+
+    <BurglarIsLeaving>
+        <Dialogue>ศูนย์รับแจ้งเหตุ มีรถ 1 คันกำลัง ~r~หลบหนี~s~ มีผู้โดยสาร 2 คน!</Dialogue>
+    </BurglarIsLeaving>
+
+</Burglary>

@@ -1,0 +1,46 @@
+<StructureFire>
+    <CalloutMessage>~r~~h~เหตุเพลิงไหม้อาคาร~h~~s~</CalloutMessage>
+    <Task>ขับรถไปยัง ~r~อาคารที่กำลังไฟไหม้ Code 3!</Task>
+    <State>
+        <Extinguish>
+            <Text>~o~ดับไฟด้วยตัวเอง ~r~หรือเรียกหน่วยดับเพลิง!</Text>
+            <Text>ไฟทั้งหมดถูกดับเรียบร้อยแล้ว</Text>
+        </Extinguish>
+        <Investigate>
+            <Text>ตอนนี้ค้นหาหลักฐานในที่เกิดเหตุที่เกี่ยวข้องกับเพลิงไหม้ กด ~y~{Y}~s~ เพื่อเก็บมันขึ้นมา</Text>
+            <Text>เราได้รับข้อมูลเกี่ยวกับตำแหน่งของหลักฐานแล้ว</Text>
+            <Text>คุณพบหลักฐานแล้ว</Text>
+        </Investigate>
+        <Manhunt>
+            <Text>ผู้แจ้งเหตุได้ให้ข้อมูลตำแหน่งโดยประมาณของผู้ต้องสงสัยที่อาจเกี่ยวข้องมาแล้ว</Text>
+        </Manhunt>
+        <End>
+            <Text>เหตุเพลิงไหม้อาคารสิ้นสุดแล้ว</Text>
+        </End>
+    </State>
+    <Scenario>
+        <SecureSceneOnly>
+            <Text>กด ~{End}~ เพื่อจบเคสแจ้งเหตุ</Text>
+        </SecureSceneOnly>
+        <NoFire>
+            <Text>โชคดีที่สถานที่นี้ไม่มีไฟไหม้</Text>
+        </NoFire>
+    </Scenario>
+    <SuspectAction>
+        <Ignoring>
+            <Text>ผู้ต้องสงสัยดูเหมือนจะ ~y~ไม่หวั่นไหว~s~ กับการปรากฏตัวของคุณ</Text>
+        </Ignoring>
+        <Shooting>
+            <Text>~y~คุณ: ~r~มีการยิงกัน!</Text>
+        </Shooting>
+        <Surrender>
+            <Text>ผู้ต้องสงสัยกำลัง ~g~ยอมจำนน</Text>
+        </Surrender>
+        <Pursuit>
+            <Text>~y~คุณ:~s~ เรามี ~o~การไล่ล่า!</Text>
+        </Pursuit>
+    </SuspectAction>
+    <FireProgressBar>
+        <Text>~h~ไฟที่ถูกดับแล้ว~h~</Text>
+    </FireProgressBar>
+</StructureFire>

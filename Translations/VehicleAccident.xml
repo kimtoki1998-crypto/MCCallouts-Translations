@@ -1,0 +1,31 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>อุบัติเหตุทางรถยนต์</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>~r~ตอบสนอง Code 3</CALLOUTADVISORY>
+    <TASK>ขับไปยัง~r~จุดเกิดอุบัติเหตุ~s~ ตรวจสอบการจราจรและดูว่าคนขับปลอดภัยหรือไม่</TASK>
+    <SCENARIOS>
+        <DRIVERINJURED>
+            <TEXT>กด ~{Y}~ เพื่อพูดคุย</TEXT>
+            <DIALOGUE>~y~คุณ:~s~ สวัสดี? คุณต้องการอะไร?</DIALOGUE>
+            <DIALOGUE>~p~คนขับ:~s~ ฉัน...บาดเจ็บ... ช่วยเรียก...รถพยาบาล...ให้ที</DIALOGUE>
+            <TEXT>เรียกรถพยาบาลให้ผู้บาดเจ็บ</TEXT>
+        </DRIVERINJURED>
+        <DRIVEROKBUTDRUNK>
+            <DIALOGUE>~y~คุณ:~s~ คุณช่วยบอกได้ไหมว่าเกิดอะไรขึ้น?</DIALOGUE>
+            <DIALOGUE>~o~คนขับ:~s~ ฉันจำไม่ค่อยได้จริง ๆ *ฮิก*</DIALOGUE>
+            <DIALOGUE>~y~คุณ:~s~ คุณมาจากที่ไหน?</DIALOGUE>
+            <DIALOGUE>~o~คนขับ:~s~ มาจากงานปาร์ตี้บ้านเพื่อน ฉันทดสอบความสร่างได้ ฉันไม่เมาเลยสักนิด</DIALOGUE>
+        </DRIVEROKBUTDRUNK>
+        <DRIVERSHOTWEAPONNEARBY> 
+            <TEXT>กด ~{Y}~ เพื่อเก็บอาวุธ</TEXT>
+            <TEXT>กด ~y~{Y}~s~ เพื่อขอตรวจสอบหมายเลขซีเรียลจากศูนย์วิทยุ</TEXT>
+            <SERIALNUMBER>
+                <DIALOGUE>~y~คุณ:~s~ ศูนย์วิทยุ ขอเช็กหมายเลขซีเรียลของปืนพก หมายเลขคือ ~r~{serialnumber}~s~ ได้ไหม?</DIALOGUE>
+                <DIALOGUE>10-4 กำลังตรวจสอบ</DIALOGUE>
+                <DIALOGUE>อาวุธ: ปืนพก</DIALOGUE>
+                <DIALOGUE>~b~เจ้าของ: {DriversName}</DIALOGUE>
+                <DIALOGUE>~r~คำเตือน: เจ้าของเป็นบุคคลที่ตำรวจต้องการตัว</DIALOGUE>
+                <DIALOGUE>โปรดทราบ: เราได้รับแจ้งเหตุบุคคลน่าสงสัยอยู่ใกล้เคียง โปรดตอบสนอง ~r~Code 3</DIALOGUE>
+            </SERIALNUMBER>
+        </DRIVERSHOTWEAPONNEARBY>
+    </SCENARIOS>
+</CALLOUT>

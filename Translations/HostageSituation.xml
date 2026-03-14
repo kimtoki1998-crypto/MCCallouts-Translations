@@ -1,0 +1,133 @@
+<HostageSituation>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+<!-- 
+<![CDATA[
+-->
+<!--
+]]>
+-->
+
+
+    <General>
+        <Text>สถานการณ์จับตัวประกัน</Text>
+        <Text>มีคนหนึ่งกำลังใช้ปืนจ่อจับตัวประกันไว้</Text>
+        <Text>ขับไปยังจุดเกิดเหตุจับตัวประกัน Code 3 ด่วนที่สุด!</Text>
+        <Text><![CDATA[จอดรถของคุณที่จุดสีเหลืองและหาที่กำบังขณะพูดคุยกับผู้ต้องสงสัย]]></Text>
+        <Text>คุยกับ~g~ตัวประกัน</Text>
+        <Text>โอเค โอเค ฉันยอมแล้ว!</Text>
+        <Text>จอดตรงนั้นแล้วหลบอยู่ด้านหลังรถของคุณ</Text>
+    </General>
+
+    <PedStatus>
+        <Text>~r~จับกุมผู้ต้องสงสัย~s~แล้ว!</Text>
+        <Text>~g~ตัวประกัน ~y~ถูกจับกุม?!</Text>
+        <Text>~o~ผู้ต้องสงสัย~s~ ~r~เสียชีวิตแล้ว~s~</Text>
+        <Text>~g~ตัวประกัน~s~ ~r~เสียชีวิตแล้ว...~s~</Text>
+    </PedStatus>
+
+    <DisplayHelp>
+        <Text>กด</Text>
+        <Text>เพื่อจบคอลเอาต์หลังจากที่คุณ ~b~สอบสวน~s~ เสร็จแล้ว</Text>
+        <Text>คุยกับผู้ต้องสงสัยโดยใช้</Text>
+    </DisplayHelp>
+
+    <DistanceToSuspect>
+        <Dialogue>~o~ถอยไป ไม่งั้นฉันยิง!</Dialogue>
+        <Dialogue>~g~มาทันเวลาพอดี!</Dialogue>
+        <Dialogue>~r~เดี๋ยวฝนกระสุนจะถล่มลงมา!</Dialogue>
+    </DistanceToSuspect>
+
+    <DistanceWarner>
+        <Dialogue>~o~อยู่ให้ห่างไว้ ไม่งั้นผู้ต้องสงสัยจะโมโห!~s~</Dialogue>
+        <Dialogue>~g~ดีมาก รักษาระยะปลอดภัยไว้~s~</Dialogue>
+        <Dialogue>~r~คุณเข้าใกล้เกินไป! ระวัง!~s~</Dialogue>
+    </DistanceWarner>
+
+    <Menu>
+        <MenuName>ตัดสินใจ:</MenuName>
+
+        <Menu1>
+            <Conversation>อยู่นิ่ง ๆ</Conversation>
+            <Conversation>~y~You~s~: ไม่ต้องห่วง ฉันจะอยู่ตรงนี้</Conversation>
+            <Conversation>กดดันเขา</Conversation>
+            <Conversation>~y~You~s~: ฉันจะระเบิดหัวแกซะ ไอ้สารเลว!</Conversation>
+        </Menu1>
+
+        <Menu2>
+            <Conversation>เงินสด 20,000 ดอลลาร์</Conversation>
+            <Conversation>~y~You~s~: เราจะให้เงินสดคุณ 20,000 ดอลลาร์ ฟังดูโอเคไหม?</Conversation>
+            <Conversation>ปรับปรุงสภาพการคุมขัง</Conversation>
+            <Conversation>~y~You~s~: เราสามารถหาห้องขังที่ใหญ่ขึ้นพร้อมทีวีให้นายจ้างคุณได้ เอาไหม?</Conversation>
+            <Conversation><![CDATA[เสนอการเริ่มต้นใหม่และนักจิตวิทยา]]></Conversation>
+            <Conversation>~y~You~s~: ฉันเข้าใจนะ เพื่อนฉันเป็นนักจิตวิทยาที่เก่งมาก เธอช่วยให้คุณกลับมาเริ่มต้นใหม่ได้ ฟังดูเป็นยังไง?</Conversation>
+        </Menu2>
+
+        <Menu3>
+            <Conversation>รถหลบหนีพร้อมน้ำมันจำกัด</Conversation>
+            <Conversation>~y~You~s~: คุณจะได้รถหลบหนีพร้อมน้ำมันแบบจำกัด แต่คุณจะหนีไปไหนล่ะ?</Conversation>
+            <Conversation>เสนอพิซซ่า</Conversation>
+            <Conversation>~y~You~s~: เอาพิซซ่าสักถาดแทนดีไหม?</Conversation>
+        </Menu3>
+    </Menu>
+
+    <SuspectTalk>
+        <Dialogue>~r~ผู้ต้องสงสัย~s~: ไสหัวไป! แกมาทำอะไรที่นี่?! อย่าเข้ามาใกล้อีก!</Dialogue>
+        <Dialogue>~r~ผู้ต้องสงสัย~s~: หวังว่าจะแบบนั้นนะ! ทีนี้ทุกคนออกไปให้หมด ฉันไม่อยากเห็นตำรวจอีกแล้ว!</Dialogue>
+        <Dialogue>~r~ผู้ต้องสงสัย~s~: แกทำอะไรฉันไม่ได้หรอก! ฉันไม่อยากเห็นตำรวจอีกต่อไป ไม่งั้นฝนกระสุนจะตกแน่!</Dialogue>
+        <Dialogue>~y~You~s~: ฉันเข้าใจ แต่ตอนนี้อาคารถูกล้อมไว้หมดแล้ว</Dialogue>
+        <Dialogue>~y~You~s~: ฉันอยากให้เรื่องนี้จบลงอย่างสงบ เพื่อคุณ เพื่อตัวประกัน และเพื่อเจ้าหน้าที่ทุกคน</Dialogue>
+        <Dialogue>~y~You~s~: ทำไมคุณถึงปล้นร้าน?</Dialogue>
+        <Reasons>
+            <Dialogue>~r~ผู้ต้องสงสัย~s~: ฉันต้องการ~b~เงิน~s~ ฉัน~b~ถังแตก~s~ และจ่ายค่าเช่าไม่ไหวอีกต่อไป!</Dialogue>
+            <Dialogue>~r~ผู้ต้องสงสัย~s~: ก็เพราะหล่อนนั่นแหละ! ~b~เธอทิ้งฉันไป!~s~ แล้วตอนนี้เธอก็เป็นตัวประกันของฉัน!</Dialogue>
+            <Dialogue>~r~ผู้ต้องสงสัย~s~: ~b~หัวหน้า~s~ของฉันอยู่ใน~b~คุก~s~ ฉันจะไม่ไปไหนจนกว่าเขาจะได้รับการปล่อยตัว!</Dialogue>
+        </Reasons>
+        <Dialogue>~y~You~s~: ฟังให้ดีนะ ฉันมีข้อเสนอแบบนี้ให้คุณ</Dialogue>
+        <Dialogue>~r~ผู้ต้องสงสัย~s~: ตกลง เราจะคุยกัน แต่แกต้องการอะไรตอบแทน?</Dialogue>
+        <Dialogue>~y~You~s~: อีกครั้งนะ ทุกคนต้องได้กลับบ้านอย่างปลอดภัย และคุณต้องปล่อยตัวประกัน</Dialogue>
+        <Dialogue>~r~ผู้ต้องสงสัย~s~: ถ้าแกเอารถหลบหนีมาให้ ฉันจะปล่อยตัวประกันทีหลัง!</Dialogue>
+        <Dialogue>~r~ผู้ต้องสงสัย~s~: มันไม่สมเหตุสมผลเลย ข้อเสนอสุดท้ายแล้ว...</Dialogue>
+        <Fail>
+            <Dialogue>~r~ผู้ต้องสงสัย~s~: ไปตายซะทั้งแกและข้อเสนอเฮงซวยของแก! แล้วตำรวจก็ยังอยู่ที่นี่อีก!</Dialogue>
+            <Dialogue>~r~ผู้ต้องสงสัย~s~: เดี๋ยวแกจะได้รู้ว่าผลมันเป็นยังไง!</Dialogue>
+            <Dialogue>~r~ผู้ต้องสงสัย~s~: แกมันบ้า! เดี๋ยวแกจะได้รู้ว่าผลมันเป็นยังไง!</Dialogue>
+        </Fail>
+        <Dialogue>~r~ผู้ต้องสงสัย~s~: ฉันไม่บอกแกหรอก แต่ฉันจะปล่อยตัวประกันทันทีที่ฉันไม่เห็นตำรวจอีกต่อไป</Dialogue>
+        <Dialogue>~y~You~s~: รถน่าจะมาถึงในอีกไม่กี่อึดใจ...</Dialogue>
+    </SuspectTalk>
+
+    <SuspectDrives>
+        <Text>ตามรถของผู้ต้องสงสัยไป แต่ต้องรักษาระยะไว้ให้ดี อย่าให้เขาเห็นคุณ!</Text>
+        <Text><![CDATA[~g~ผู้ต้องสงสัยควรรู้สึกปลอดภัยแล้ว~s~ ได้เวลาปิดล้อมเขาและ ~r~จับกุม!~s~]]></Text>
+        <Text>มีการติดตั้งตัวติดตามไว้บนรถและกำลังทำงานอยู่</Text>
+        <Text>FBI รายงานว่า: คุณสามารถ ~y~ปิดเครื่องยนต์ของรถ~s~ ได้โดยกด ~y~O~s~!</Text>
+        <Text><![CDATA[จับ ~y~ผู้ต้องสงสัย~s~ ให้ได้! ปิดทางรถของเขาและจับกุม!]]></Text>
+        <Text>รถถูกปิดการทำงานแล้ว เข้าควบคุมตัวผู้ต้องสงสัย!</Text>
+    </SuspectDrives>
+
+    <HostageTalk>
+        <Dialogue>~g~ตัวประกัน~s~: ขอบคุณมากจริง ๆ ผู้ชายคนนั้นบ้าไปแล้ว! ฉันไม่อยากเชื่อเลย!</Dialogue>
+        <Dialogue>~y~You~s~: ใจเย็น ๆ ตอนนี้คนร้ายที่จับคุณไว้ไม่เป็นภัยกับคุณอีกแล้ว</Dialogue>
+        <Dialogue>~y~You~s~: คุณโอเคไหม? ต้องการความช่วยเหลือทางการแพทย์หรือจิตวิทยาไหม?</Dialogue>
+        <Dialogue>~g~ตัวประกัน~s~: ฉันไม่เป็นไร ฉันแค่อยากกลับบ้าน</Dialogue>
+        <Dialogue>~y~You~s~: สถานการณ์จับตัวประกันเกิดขึ้นได้ยังไง?</Dialogue>
+        <ExGirlfriend>
+            <Dialogue>~g~ตัวประกัน~s~: แฟนเก่าของฉันสติแตก ฉันเลิกกับเขาไปเมื่อสองสัปดาห์ก่อน</Dialogue>
+            <Dialogue><![CDATA[~g~ตัวประกัน~s~: เขาทำใจไม่ได้ & ตามฉันมาที่นี่]]></Dialogue>
+        </ExGirlfriend>
+        <Dialogue>~g~ตัวประกัน~s~: ฉันแค่อยากออกมาซื้อของ แล้วผู้ชายคนนั้นก็เข้ามาเอาปืนจ่อหัวฉัน!</Dialogue>
+        <Dialogue>~g~ตัวประกัน~s~: เขาตั้งใจจะบังคับตามข้อเรียกร้องของตัวเองทุกวิถีทาง...</Dialogue>
+        <Dialogue><![CDATA[~y~You~s~: เอาล่ะ ถ้าคุณไม่มีอะไรต้องกังวลแล้ว ก็เดินทางกลับบ้านอย่างปลอดภัยและดูแลตัวเองด้วย!]]></Dialogue>
+        <Dialogue>~g~ตัวประกัน~s~: ขอบคุณอีกครั้ง ลาก่อน!</Dialogue>
+    </HostageTalk>
+
+    <End>
+        <Text>~g~Code 4.</Text>
+    </End>
+
+</HostageSituation>

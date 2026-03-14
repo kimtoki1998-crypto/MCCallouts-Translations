@@ -1,0 +1,14 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>ไฟป่า</CALLOUTMESSAGE>
+    <TASK>มีประชาชนแจ้งเหตุไฟไหม้ขนาดใหญ่ในพื้นที่ป่าแถบ {ZONE}.</TASK>
+    <DIFFICULTY>
+        <TEXT>ระดับความยาก:</TEXT>
+        <TEXT>~y~ปานกลาง</TEXT>
+        <TEXT>~r~ยาก</TEXT>
+    </DIFFICULTY>
+    <END>
+        <TEXT>ไฟดับแล้ว เยี่ยมมาก!</TEXT>
+        <TEXT>คุณดับไฟไปแล้ว {PERCENTAGE} %.</TEXT>
+        <TEXT>ไฟทั้งหมดถูกดับเรียบร้อยแล้ว ยอดเยี่ยม!</TEXT>
+    </END>
+</CALLOUT>

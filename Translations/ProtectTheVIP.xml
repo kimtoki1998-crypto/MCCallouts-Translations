@@ -1,0 +1,31 @@
+<ProtectTheVIP>
+    <CalloutMessage>คุ้มกัน VIP</CalloutMessage>
+    <CalloutAdvisory>ปกป้องเขาจากสมาชิกแก๊ง!</CalloutAdvisory>
+    <Task>ขับไปหา ~g~VIP</Task>
+    <VIP>
+        <Dialogue>สวัสดี! ขอบคุณสำหรับการปฏิบัติหน้าที่ ฉันกำลังตกเป็นเป้าหมายของแก๊งค้ายา</Dialogue>
+        <Dialogue>ฉันได้รับคำขู่เอาชีวิตมากมายทางออนไลน์ ฉันต้องการการคุ้มกัน</Dialogue>
+        <Dialogue>ฉันเป็นเจ้าของธุรกิจ ~HC_17~Rusty Brown's Ring Donuts</Dialogue>
+        <Dialogue>โอ้ไม่ พวกมันมาแล้ว!</Dialogue>
+        <Task>กด ~o~{Y}~s~ - ให้ VIP ~o~เดิน~s~มายังตำแหน่งปัจจุบันของคุณ</Task>
+        <Task>กด ~g~{J}:~s~ - เปิด/ปิดให้ VIP ~g~เดินตาม~s~คุณ</Task>
+        <Task>ควบคุม VIP</Task>
+        <Task>การกระทำ</Task>
+        <Dead>~r~VIP เสียชีวิตแล้ว</Dead>
+    </VIP>
+
+    <Difficulty>
+        <Title>ระดับความยาก</Title>
+        <Easy>ง่าย</Easy>
+        <Medium>ปานกลาง</Medium>
+        <Hard>ยาก</Hard>
+    </Difficulty>
+
+    <FightGang>
+        <Dialogue>~y~คุณ:~s~ มาตรงนี้!</Dialogue>
+        <Dialogue>ตามฉันมา!</Dialogue>
+        <Dialogue>อยู่ตรงนี้ไว้!</Dialogue>
+    </FightGang>
+
+    <End>~b~ภารกิจคุ้มกัน VIP สิ้นสุดแล้ว</End>
+</ProtectTheVIP>

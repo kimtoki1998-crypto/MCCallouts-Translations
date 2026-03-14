@@ -1,0 +1,43 @@
+<ATMRobbery>
+
+    <CamText>
+        <Text>CAM1</Text> <!--use a short text!-->
+    </CamText>
+
+    <D_Victim>
+        <Dialogue>สวัสดีครับคุณตำรวจ! ผมเพิ่งโดนปล้นมา!</Dialogue>
+        <Dialogue>ผมเพิ่งกดเงินจากตู้ ATM เสร็จ แล้วก็มีคนเดินเข้ามากระชากกระเป๋าสตางค์ของผมไป!</Dialogue>
+        <Dialogue>เราต่อสู้กัน แล้วเขาก็ต่อยหัวผม!</Dialogue>
+        <Dialogue>น่าเสียดายที่ผมจำหน้าคนร้ายไม่ได้...</Dialogue>
+        <Dialogue>ไม่เป็นไร ผมเห็นว่าตรงนั้นมีกล้องวงจรปิดอยู่ ผมจะลองดูว่าทำอะไรได้บ้าง</Dialogue>
+        <Dialogue>ศูนย์วิทยุ ขอเข้าถึงกล้องวงจรปิดในตำแหน่งปัจจุบันของผมได้ไหม?</Dialogue>
+    </D_Victim>
+
+    <D_Suspect>
+        <Dialogue>คุณมีปัญหาอะไร? ตามฉันมาทำไม?</Dialogue>
+        <Dialogue>คุณมีลักษณะตรงกับคนร้ายจากเหตุปล้นที่เพิ่งเกิดขึ้น</Dialogue>
+        <Dialogue>ฉันดูเหมือนอาชญากรเหรอ? ไร้สาระน่า</Dialogue>
+        <Dialogue>คุณจับคนผิดแล้ว ฉันไม่ได้ทำอะไรเลย!</Dialogue>
+    </D_Suspect>
+
+    <Persons>
+        <Text>ผู้เสียหาย</Text>
+        <Text>คุณ</Text>
+        <Text>ผู้ต้องสงสัย</Text>
+    </Persons>
+
+    <General>
+        <CalloutMessage>ปล้นตู้ ATM</CalloutMessage>
+        <CalloutAdvisory>มีผู้แจ้งว่าโดนปล้นทันทีหลังจากกดเงิน</CalloutAdvisory>
+        <Text>กด {0} เพื่อคุยกับ ~g~ผู้แจ้งเหตุ~s~</Text>
+        <Text>รอสักครู่</Text>
+        <Text>ตอนนี้คุณสามารถเข้าถึงกล้องได้แล้ว</Text>
+        <Text>กด {0} เพื่อดูกล้องวงจรปิด!</Text>
+        <Text>มีรายงานเหตุปล้นอีกจุดหนึ่ง; ~y~พื้นที่ถูกทำเครื่องหมายไว้แล้ว~s~ บน GPS ของคุณ</Text>
+        <Text>กด {0} เพื่อคุยกับ ~r~ผู้ต้องสงสัย~s~</Text>
+        <Text>ผู้ต้องสงสัยดูเหมือนไม่สนใจคุณ</Text>
+        <Text>เข้าไปตรวจสอบพวกเขา</Text>
+        <Text>เรียกตรวจรถ</Text>
+    </General>
+
+</ATMRobbery>

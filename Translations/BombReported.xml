@@ -1,0 +1,65 @@
+<BombReported>
+
+    <General>
+        <Text>มีรายงานพบระเบิดต้องสงสัย</Text>
+        <Text>ค้นหาภัยคุกคามจากระเบิดที่อาจมีอยู่ ~r~Code 3~s~.</Text>
+        <Text>กด {Y} เพื่ออพยพประชาชน!</Text>
+        <Text>ค้นหาระเบิดในบริเวณ ~y~พื้นที่~s~.</Text>
+        <Text>คำแนะนำ: กด {Y} เพื่อเรียกผู้เชี่ยวชาญด้านระเบิด</Text>
+        <Text>ไม่พบระเบิด พื้นที่ปลอดภัยแล้ว</Text>
+        <Text>ปลดชนวนระเบิดสำเร็จ! เยี่ยมมาก!</Text>
+        <Text>ตัดสาย ~g~สีเขียว~s~ แล้ว!</Text>
+        <Text>ตัดสาย ~y~สีเหลือง~s~ แล้ว!</Text>
+        <Text>ตัดสาย ~b~สีน้ำเงิน~s~ แล้ว!</Text>
+        <Text>แย่แล้ว คุณตัดผิดเส้น! วิ่งหนี ระเบิดกำลังจะระเบิด!</Text>
+    </General>
+
+    <Persons>
+        <Text>คุณ</Text>
+        <Text>ผู้เชี่ยวชาญ</Text>
+        <Text>เจ้าหน้าที่</Text>
+    </Persons>
+
+    <Officer>
+        <Dialogue>สวัสดี! ขอบคุณที่มาถึงที่เกิดเหตุ!</Dialogue>
+        <Dialogue>ตอนนี้สถานการณ์ใหญ่เลย! เราได้รับรายงานว่ามีระเบิดต้องสงสัย!</Dialogue>
+        <Dialogue>เราเอาเรื่องนี้จริงจังมากและได้ปิดกั้นพื้นที่ไว้แล้ว</Dialogue>
+        <Dialogue>พอคุยกันเสร็จแล้ว ให้อพยพทุกคนออกจากพื้นที่ก่อน แล้วค่อยค้นหาระเบิด! โชคดี!</Dialogue>
+    </Officer>
+
+    <Evacuate>
+        <Dialogue>เฮ้ กรุณาออกจากพื้นที่นี้ทันที! เราอาจมีระเบิดอยู่ที่นี่!</Dialogue>
+        <Dialogue>นี่คุณน่ะ เรามีภัยคุกคามจากระเบิด ถอยออกไประยะปลอดภัย!</Dialogue>
+        <Dialogue>พื้นที่นี้ต้องอพยพทันที! เร็วเข้า!</Dialogue>
+        <Dialogue></Dialogue>
+    </Evacuate>
+
+    <SpecialistGeneral>
+        <Dialogue>ฮัลโหล? คุณเจอระเบิดหรือยัง?</Dialogue>
+        <Dialogue>ใช่ ผมคิดว่าเจอแล้ว มันอยู่ตรงหน้าผมเลย</Dialogue>
+        <Dialogue>โอเค ขอผมคิดดูก่อน มันมีระบบควบคุมอะไรแปลก ๆ อยู่</Dialogue>
+        <Dialogue>อืม... โอเค... บ้าจริง... อะไรเนี่ย... ? อ่า เข้าใจแล้ว</Dialogue>
+        <Dialogue>งั้น... อืม... โอ้ไม่นะ... อ่า โอเค...</Dialogue>
+        <Dialogue>เยี่ยมเลย ฉันยังไม่ตาย! ดูเหมือนว่าระเบิดจะถูกปลดชนวนแล้ว ทำดีมาก และขอบคุณ!</Dialogue>
+        <Dialogue>ด้วยความยินดี ลาก่อน</Dialogue>
+    </SpecialistGeneral>
+
+    <SpecialistGYB>
+        <Dialogue>ตัดสายสีเขียวก่อน</Dialogue>
+        <Dialogue>ตอนนี้ตัดสายสีเหลือง</Dialogue>
+        <Dialogue>โอเค ถ้ามันยังไม่ระเบิด ก็ตัดสายสีน้ำเงินที่เหลือ</Dialogue>
+    </SpecialistGYB>
+
+    <SpecialistBYG>
+        <Dialogue>ตัดสายสีน้ำเงินก่อน</Dialogue>
+        <Dialogue>ตอนนี้ตัดสายสีเหลือง</Dialogue>
+        <Dialogue>โอเค ถ้ามันยังไม่ระเบิด ก็ตัดสายสีเขียวที่เหลือ</Dialogue>
+    </SpecialistBYG>
+
+    <SpecialistGBY>
+        <Dialogue>ตัดสายสีเขียวก่อน</Dialogue>
+        <Dialogue>ตอนนี้ตัดสายสีน้ำเงิน</Dialogue>
+        <Dialogue>โอเค ถ้ามันยังไม่ระเบิด ก็ตัดสายสีเหลืองที่เหลือ</Dialogue>
+    </SpecialistGBY>
+
+</BombReported>

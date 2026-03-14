@@ -1,0 +1,68 @@
+<LostFreight>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>สินค้าตกหล่น</Text>
+        <Text>ผู้โทรแจ้งว่ามีสินค้าตกหล่นบนทางหลวง</Text>
+        <Text><![CDATA[ขับไปหาผู้โทรและติดต่อพูดคุย]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>คุยกับผู้โทรด้วย </Text>
+        <Text><![CDATA[ค้นหาใน~y~พื้นที่~s~ และเก็บสิ่งกีดขวางด้วย ]]></Text>
+        <Text>คุยกับ~b~เจ้าหน้าที่~s~ด้วย </Text>
+        <Text>ไม่มีการสื่อสารเพิ่มเติม</Text>
+        <Text>นี่คือ~g~ตัวช่วย~s~เล็กน้อย</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>ไม่มี~r~วัตถุ~s~อยู่ใกล้เคียง</Text>
+        <Text>นำ~r~วัตถุ~s~ออกแล้ว!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~คุณ~s~: สวัสดี คุณเป็นคนที่โทรมาเรื่องสินค้าตกหล่นใช่ไหม?</Dialogue>
+        <Dialogue><![CDATA[~b~ผู้โทร~s~: ใช่ครับ/ค่ะ ประตูท้ายรถพ่วงเปิดออก แล้วของก็ตกกระจายลงบนทางหลวง!]]></Dialogue>
+        <Dialogue>~y~คุณ~s~: นั่นอันตรายมาก คุณขนอะไรมาเหรอ?</Dialogue>
+        <Dialogue>~b~ผู้โทร~s~: มีอุปกรณ์~b~เทนนิส~s~หลายอย่าง เพราะเรากำลังเคลียร์คลับเฮาส์ของชมรม</Dialogue>
+        <Dialogue>~b~ผู้โทร~s~: มีของ~b~สำนักงาน~s~เยอะมาก ทั้งตู้ จอ เก้าอี้ ลำโพง...</Dialogue>
+        <Dialogue>~b~ผู้โทร~s~: มี~b~อุปกรณ์ครัว~s~จำนวนมาก หม้อ ช้อนส้อม จาน และอื่น ๆ เพราะบริษัทเรากำลังย้ายที่ตั้ง</Dialogue>
+        <Dialogue>~y~คุณ~s~: เข้าใจแล้ว คุณกำลังจะไปทางไหน?</Dialogue>
+        <Dialogue>~b~ผู้โทร~s~: ฉันขับมาแค่ใน~y~ทิศทางนี้ทางเดียว~s~ งั้นให้ค้นหาฝั่งเดียวของทางหลวงก็พอ</Dialogue>
+        <Dialogue>~y~คุณ~s~: ดิสแพตช์ ปิดทางเข้าทางหลวงจุดล่าสุดด้วย มีชิ้นส่วนตกอยู่บนถนน!</Dialogue>
+        <Dialogue>รับทราบ จะหยุดการจราจรและส่งหน่วยไปยังที่เกิดเหตุ</Dialogue>
+    </Conversation>
+
+
+    <Officer1>
+        <Dialogue>~b~เจ้าหน้าที่บลู~s~: หวัดดี! ขอให้วันนี้เป็นวันที่ดีนะ!</Dialogue>
+        <Dialogue>~b~เจ้าหน้าที่บลู~s~: ฉันจะคอยหยุดการจราจรไว้จนกว่าถนนจะโล่ง!</Dialogue>
+        <Dialogue>~b~เจ้าหน้าที่บลู~s~: โชคดีล่ะ!</Dialogue>
+    </Officer1>
+
+
+    <Officer2>
+        <Dialogue>~b~เจ้าหน้าที่ไนท์~s~: สวัสดี แล้วนี่จะใช้เวลาอีกนานแค่ไหน?</Dialogue>
+        <Dialogue>~b~เจ้าหน้าที่ไนท์~s~: ฉันก็มีอย่างอื่นต้องทำเหมือนกันนะ!</Dialogue>
+        <Dialogue>~b~เจ้าหน้าที่ไนท์~s~: ถ้าคุณไม่มัวแต่คุยมาก ฉันคงไปได้ตั้งนานแล้ว!</Dialogue>
+    </Officer2>
+
+
+    <End>
+        <Text>เรา ~g~โค้ด 4~s~ แล้ว</Text>
+        <Text>จำนวนสิ่งของที่เก็บออก:</Text>
+        <Text>/~g~4</Text>
+        <Text>~r~ขอบคุณ, ~g~การจราจรกลับมาใช้งานได้อีกครั้ง!</Text>
+    </End>
+
+
+
+</LostFreight>

@@ -1,0 +1,83 @@
+<LostObject>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>ของหาย</Text>
+        <Text>ผู้โทรทำของหาย ต้องการตำรวจ</Text>
+        <Text><![CDATA[ขับไปหา ~g~ผู้โทร~s~ และดูว่าเกิดปัญหาอะไรขึ้น]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>คุยกับผู้โทรโดยกด </Text>
+        <Text>ค้นหา~o~โทรศัพท์มือถือ~s~ กด </Text>
+        <Text>ค้นหา~o~กระเป๋าสตางค์~s~ กด </Text>
+        <Text>ค้นหา~o~รองเท้า~s~ กด </Text>
+        <Text> เพื่อเก็บวัตถุ</Text>
+        <Text>กด </Text>
+        <Text> เพื่อตะโกนเรียกผู้โทร!</Text>
+        <Text>นี่คือ ~r~คำใบ้~s~ เพื่อช่วยคุณ</Text>
+        <Text>กด ~g~1 ~s~เพื่อยอมรับ หรือ ~r~2~s~ เพื่อยกเลิก</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>พบ~r~โทรศัพท์มือถือ~s~แล้ว!</Text>
+        <Text>พบ~r~กระเป๋าสตางค์~s~แล้ว!</Text>
+        <Text>พบ~r~รองเท้า~s~แล้ว!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~คุณ~s~: สวัสดี คุณคือคนที่โทรมาใช่ไหม?</Dialogue>
+        <Dialogue>~b~ผู้โทร~s~: เดี๋ยวก่อน ฉันกำลังไป!</Dialogue>
+        <Dialogue>~b~ผู้โทร~s~: ขอบคุณมากเลย! ถ้าฉันมีสายตาแบบคุณก็คงดี!</Dialogue>
+        <Dialogue>~y~คุณ~s~: ไม่เป็นไร ลาก่อน!</Dialogue>
+    </Conversation>
+
+
+    <OutcomeCellphone>
+        <Dialogue>~b~ผู้โทร~s~: ใช่ ฉันเป็นคนโทรมา ฉันหาโทรศัพท์มือถือไม่เจอ</Dialogue>
+        <Dialogue>~y~คุณ~s~: เข้าใจแล้ว ฉันจะช่วยคุณหาเอง</Dialogue>
+        <Dialogue>~y~คุณ~s~: ครั้งสุดท้ายที่คุณใช้มันคือตอนไหน?</Dialogue>
+        <Dialogue><![CDATA[~b~ผู้โทร~s~: ฉันเดินอยู่แถวนี้ แล้วคิดว่าฉันเก็บมันไว้ในกระเป๋า]]></Dialogue>
+        <Dialogue>~y~คุณ~s~: งั้นมันน่าจะอยู่แถวนี้ ลองหาดูกัน</Dialogue>
+        <Dialogue>~y~คุณ~s~: เฮ้ เจอโทรศัพท์ของคุณแล้ว!</Dialogue>
+    </OutcomeCellphone>
+
+
+    <OutcomeWallet>
+        <Dialogue><![CDATA[~b~ผู้โทร~s~: ใช่ ฉันเอง ฉันทำกระเป๋าสตางค์หาย และหาไม่เจอเลย]]></Dialogue>
+        <Dialogue>~y~คุณ~s~: โอ้ ไม่เป็นไรนะ เดี๋ยวเราหามันเจอแน่นอน</Dialogue>
+        <Dialogue>~y~คุณ~s~: คุณจำได้ไหมว่าครั้งสุดท้ายที่มีมันอยู่คือตอนไหน?</Dialogue>
+        <Dialogue>~b~ผู้โทร~s~: จำได้ เพิ่งเมื่อกี้เอง มันน่าจะอยู่แถวนี้</Dialogue>
+        <Dialogue>~y~คุณ~s~: โอเค งั้นเรามาช่วยกันหากระเป๋าสตางค์ของคุณ</Dialogue>
+        <Dialogue>~y~คุณ~s~: เฮ้ เจอกระเป๋าสตางค์ของคุณแล้ว!</Dialogue>
+    </OutcomeWallet>
+
+
+    <OutcomeShoe>
+        <Dialogue>~b~ผู้โทร~s~: ใช่ ฉันต้องการความช่วยเหลือ ฉันมีปัญหาใหญ่มาก</Dialogue>
+        <Dialogue>~b~ผู้โทร~s~: ฉันทำรองเท้าหาย... รองเท้าคู่โปรดของฉัน ฉันรักมันมากเลย!</Dialogue>
+        <Dialogue>~y~คุณ~s~: อ่า... ขอโทษนะ แต่นี่ไม่ใช่เหตุผลที่จะโทรหาตำรวจ</Dialogue>
+        <Dialogue>~b~ผู้โทร~s~: แต่มันเป็นรองเท้าราคา 100 ดอลลาร์เลยนะ! ขอโทษด้วย แต่ช่วยฉันหามันได้ไหม?</Dialogue>
+        <Dialogue>~y~คุณ~s~: โอเค ฉันจะช่วยคุณหารองเท้า ลองค้นหาแถวนี้กัน</Dialogue>
+        <Dialogue>~y~คุณ~s~: ไม่ อย่างที่ฉันบอกไป กรุณาโทรหาตำรวจเฉพาะกรณีฉุกเฉินเท่านั้น ขอให้เป็นวันที่ดีนะ!</Dialogue>
+        <Dialogue>~y~คุณ~s~: เฮ้ เจอรองเท้าของคุณแล้ว!</Dialogue>
+        <Dialogue>~y~คุณ~s~: เอาล่ะ แต่ครั้งหน้าขอให้โทรมาเฉพาะกรณีฉุกเฉินนะ ลาก่อน!</Dialogue>
+    </OutcomeShoe>
+
+
+    <End>
+        <Text>เรา ~g~โค้ด 4~s~ แล้ว ~b~พบของที่หาย~g~เรียบร้อย~s~</Text>
+        <Text>โค้ด ~g~4~s~, ปิดเคส</Text>
+    </End>
+
+
+
+</LostObject>

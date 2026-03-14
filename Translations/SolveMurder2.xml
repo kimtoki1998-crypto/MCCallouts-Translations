@@ -1,0 +1,172 @@
+<SolveMurder2>
+
+    <General>
+        <Text>~p~นักสืบ~s~ ต้องการตัวในคดีฆาตกรรม</Text>
+        <Text>~g~ศูนย์วิทยุ~s~: ขับรถไปที่ Mirror Park ใน Los Santos ต้องการ ~p~นักสืบ~w~ ด่วน</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>ไปหา ~b~เจ้าหน้าที่ตำรวจ~w~ และคุยกับเขาโดยใช้ </Dialogue>
+        <Dialogue>~b~เจ้าหน้าที่~s~: สวัสดีครับ นักสืบ! ผมชื่อ ~g~Jack Walter~s~ เรียกผมว่า Jack ก็ได้ หวังว่ารถจะไม่ติดมากนะ</Dialogue>
+        <Dialogue>~y~คุณ~s~: สวัสดีครับ! ไม่เลย ทุกอย่างโอเค ที่นี่เกิดอะไรขึ้น?</Dialogue>
+        <Dialogue>~b~Jack~s~: เรามี ~g~ผู้เสียชีวิต~s~ หนึ่งราย อาจเป็นคดีฆาตกรรม เจ้าหน้าที่ Dawson ที่อยู่ ~g~ตรงนั้น~s~ มีข้อมูลเพิ่มเติม</Dialogue>
+        <Dialogue>~b~Jack~s~: อีกฝั่งหนึ่งเรามีผู้ต้องสงสัยอยู่ 3 คน หนึ่งในนั้นคือคนที่โทรแจ้งเหตุ</Dialogue>
+        <Dialogue>~y~คุณ~s~: ขอบคุณ งั้นผมจะไปคุยกับ ~b~เจ้าหน้าที่ Dawson~s~</Dialogue>
+        <Dialogue>ไปคุยกับ ~b~เจ้าหน้าที่ Dawson~s~</Dialogue>
+    </Officer>
+
+    <Officer2>
+        <Dialogue>คุยกับ ~b~เจ้าหน้าที่ Dawson~s~ โดยใช้ </Dialogue>
+        <Dialogue>~y~คุณ~s~: สวัสดี เจ้าหน้าที่ Dawson! เจ้าหน้าที่ Walter บอกว่าคุณมีข้อมูลเพิ่มเติมงั้นเหรอ?</Dialogue>
+        <Dialogue>~b~เจ้าหน้าที่~s~: สวัสดีค่ะ นักสืบ! เรียกฉันว่า Erika ก็ได้!</Dialogue>
+        <Dialogue>~b~Erika~s~: ผู้เสียชีวิตชื่อ Lilliana Wyatt อายุ 33 ปี อาศัยอยู่บน Nikola Avenue ใกล้ ๆ นี้</Dialogue>
+        <Dialogue>~b~Erika~s~: ใช่ค่ะ เรามีผู้ต้องสงสัยที่อาจเกี่ยวข้องกับการฆาตกรรม 3 คน</Dialogue>
+        <Dialogue>~b~Erika~s~: หนึ่งในนั้นคือ Belle Hamilton คนที่โทรแจ้งเหตุ แต่เธอก็อาจเป็นคนร้ายได้เหมือนกัน</Dialogue>
+        <Dialogue>~b~Erika~s~: ฉันแนะนำให้คุณไปที่จุดเกิดเหตุและสืบหาหลักฐาน ดูว่าคุณจะพบอะไรบ้าง</Dialogue>
+        <Dialogue>ไปที่จุดเกิดเหตุและค้นหา ~b~หลักฐาน~s~</Dialogue>
+    </Officer2>
+
+    <Evidence>
+        <Text>~y~คุณ~s~: เธอมีบาดแผลที่ศีรษะ น่าจะถูกตีด้วยขวดแตกที่อยู่ตรงนั้น...</Text>
+        <Text>โทรศัพท์มือถือเครื่องหนึ่ง... ภาพพื้นหลังแสดง ~p~Obey Tailgater สีดำ~s~...</Text>
+        <Text>อืม... แฮมเบอร์เกอร์กินไปครึ่งชิ้น... ไม่น่าสนใจ</Text>
+        <Text>เลือดยังดูสดอยู่ น่าจะเกิดเหตุมาไม่เกิน 2 ชั่วโมง...</Text>
+        <Text>สืบสวนเสร็จแล้ว! ไปหา ~o~คนที่โทรแจ้งเหตุ~w~ และคุยกับเธอโดยใช้ </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>คุยกับ ~o~ผู้ต้องสงสัย~w~ โดยใช้ </Dialogue>
+        <Dialogue>~y~คุณ~s~: สวัสดีครับ! ผมเป็นนักสืบในคดีนี้ คุณชื่ออะไร?</Dialogue>
+        <Dialogue>~o~ผู้แจ้งเหตุ~s~: สวัสดีค่ะ ฉันชื่อ Belle Hamilton ฉันกำลังเดินอยู่ตามถนนแล้วก็เห็นเธอ...</Dialogue>
+        <Dialogue>~y~คุณ~s~: คุณทำถูกแล้วที่โทรหาเรา ผมขอตรวจสอบข้อมูลของคุณสักครู่</Dialogue>
+        <Dialogue>~y~คุณ~s~: ศูนย์วิทยุ ขอเช็กประวัติบุคคลชื่อ 'Belle Hamilton' ให้หน่อยได้ไหม?</Dialogue>
+        <Dialogue>รอสักครู่ กำลังตรวจสอบ</Dialogue>
+        <Dialogue>~b~Belle Hamilton~s~</Dialogue>
+        <Dialogue>~g~ไม่มีหมายจับ</Dialogue>
+        <Dialogue>~g~ไม่เคยถูกจับกุม</Dialogue>
+        <Dialogue>~y~ใบสั่ง 1 รายการ: ขับรถเร็วเกินกำหนด~s~</Dialogue>
+        <Dialogue>~y~คุณ~s~: ประวัติของคุณสะอาดดี แต่ผมยังมีคำถามอีกนิดหน่อย</Dialogue>
+        <Dialogue>~y~คุณ~s~: คุณรู้จักผู้ตายไหม?</Dialogue>
+        <Dialogue>~o~คุณ Hamilton~s~: ไม่ค่ะ ฉันไม่รู้จัก ลองคิดถึงคนในครอบครัวของเธอสิ พวกเขาคงรู้สึกแย่มาก...</Dialogue>
+        <Dialogue>~y~คุณ~s~: เราจะดูแลเรื่องนั้นเอง ขอผมดูโทรศัพท์มือถือของคุณได้ไหม?</Dialogue>
+        <Dialogue>*ยื่นโทรศัพท์มือถือให้ดู*</Dialogue>
+        <Dialogue>~o~คุณ Hamilton~s~: นี่ค่ะ แต่... อ่าา... มีรูปส่วนตัวของฉันอยู่ในนั้น ฉันให้เอาไปไม่ได้หรอก</Dialogue>
+        <Dialogue>~y~คุณ~s~: คุณเก็บไว้ได้ อ้อ แล้วคุณขับรถอะไร และทะเบียนอะไร?</Dialogue>
+        <Dialogue>~o~คุณ Hamilton~s~: ฉันขับ Lampadati Pigalle ทะเบียน 86LUN445</Dialogue>
+        <Dialogue>~y~คุณ~s~: ศูนย์วิทยุ ผมขอตรวจสอบรถทะเบียน 86LUN445</Dialogue>
+        <Dialogue>รับทราบ ขอเวลาสักครู่</Dialogue>
+        <Dialogue>~b~86LUN445~s~</Dialogue>
+        <Dialogue>~g~รุ่นรถ~s~: Lampadati Pigalle</Dialogue>
+        <Dialogue>~b~เจ้าของ~s~: Belle Hamilton</Dialogue>
+        <Dialogue>~r~ประกันหมดอายุ~s~</Dialogue>
+        <Dialogue>~y~คุณ~s~: ได้ครับ แต่รถของคุณประกันหมดอายุแล้ว คุณควรไปต่อประกันนะ</Dialogue>
+        <Dialogue>~o~คุณ Hamilton~s~: โอ้ ขอบคุณค่ะ ฉันไม่รู้เลย เดี๋ยวจะไปจัดการ</Dialogue>
+        <Dialogue>~y~คุณ~s~: เท่านี้ก่อน กรุณารอคำสั่งเพิ่มเติม</Dialogue>
+        <Dialogue>ตอนนี้ไปหา ~o~ผู้ต้องสงสัย~s~ คนต่อไปและคุยกับเขา</Dialogue>
+ 
+        <Dialogue>~y~คุณ~s~: เท่านี้ก่อน ขอบคุณที่สละเวลา</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>คุยกับ ~o~เขา~s~ โดยใช้ </Dialogue>
+        <Dialogue>~y~คุณ~s~: สวัสดีตอนเย็นครับ คุณผู้ชาย! ผมเป็นนักสืบท้องที่ ขอทราบชื่อคุณได้ไหม?</Dialogue>
+        <Dialogue>~o~ผู้ต้องสงสัย~s~: สวัสดี นักสืบ ผมชื่อ Talon Knight เกิดวันที่ 12 ธันวาคม 1992 ทำไมผมต้องถูกกักตัวอยู่ที่นี่ด้วย?</Dialogue>
+        <Dialogue>~y~คุณ~s~: เพราะคุณอยู่ในบริเวณนี้ตอนที่เหตุการณ์เกิดขึ้น</Dialogue>
+        <Dialogue>~o~Talon~s~: นี่มันขัดต่อความสมัครใจของผมนะ! ปล่อยผมได้แล้ว ผมไม่ได้ทำอะไร!</Dialogue>
+        <Dialogue>~y~คุณ~s~: เมื่อคุณตอบคำถามผมครบแล้ว คุณก็ไปได้ คุณอาศัยอยู่ที่ไหน?</Dialogue>
+        <Dialogue>~o~Talon~s~: ผมอยู่แถวนี้เอง ห่างไป 2 ช่วงตึก</Dialogue>
+        <Dialogue>~y~คุณ~s~: แล้วคุณรู้จักผู้ตายไหม?</Dialogue>
+        <Dialogue>~o~Talon~s~: ไม่รู้จัก?</Dialogue>
+        <Dialogue>~y~คุณ~s~: คุณอยู่ใกล้บ้านผู้ตาย แต่บอกผมว่าคุณไม่รู้จัก Lilliana Wyatt งั้นเหรอ?</Dialogue>
+        <Dialogue>~o~Talon~s~: โอเค ผมรู้จักเธอ แต่ผมไม่ชอบเธอ เธอไม่ค่อยเป็นมิตร ไม่ค่อยทำกิจกรรมอะไร แล้วก็ไม่ค่อยมีใครชอบในละแวกนั้น...</Dialogue>
+        <Dialogue>~o~Talon~s~: ครั้งหนึ่งเธอเคยโทรแจ้งตำรวจเพราะหมาของผมเห่าไม่กี่ครั้ง หลัง 4 ทุ่มไปไม่นาน...</Dialogue>
+        <Dialogue>~y~คุณ~s~: อืม... โอเค ขอผมดูโทรศัพท์มือถือของคุณหน่อยได้ไหม?</Dialogue>
+        <Dialogue>~o~Talon~s~: ผมอยากให้ดูนะ แต่ผมทำมันตกเมื่ออาทิตย์ก่อน แล้วเอาไปให้ร้านซ่อมแล้ว ค่าซ่อมประมาณ 100 ดอลลาร์...</Dialogue>
+        <Dialogue>~y~คุณ~s~: เข้าใจแล้ว คุณขับรถอะไร แล้วทะเบียนอะไร?</Dialogue>
+        <Dialogue>~o~Talon~s~: ผมมีรถ Vapid Minivan ทะเบียนคือ... เอ่อ... 47LIF... 341</Dialogue>
+        <Dialogue>~y~คุณ~s~: ศูนย์วิทยุ ผมขอตรวจสอบทะเบียน 47LIF341</Dialogue>
+        <Dialogue>รับทราบ กรุณารอสักครู่</Dialogue>
+        <Dialogue>~b~47LIF341~s~</Dialogue>
+        <Dialogue>~g~รุ่นรถ~s~: Vapid Minivan</Dialogue>
+        <Dialogue>~b~เจ้าของ~s~: Talon Knight</Dialogue>
+        <Dialogue>~y~หมายเหตุ: จดทะเบียนรถเมื่อ 4 เดือนก่อน~s~</Dialogue>
+        <Dialogue>~y~คุณ~s~: ศูนย์วิทยุ ตรวจสอบชื่อ 'Talon Knight' ให้หน่อย</Dialogue>
+        <Dialogue>รอสักครู่ กำลังตรวจสอบ</Dialogue>
+        <Dialogue>~b~Talon Knight~s~</Dialogue>
+        <Dialogue>~g~ไม่เคยถูกจับกุม</Dialogue>
+        <Dialogue>~y~ใบสั่ง 1 รายการ: จอดรถฝั่งผิดของถนน~s~</Dialogue>
+        <Dialogue>~y~คุณ~s~: ประวัติคุณดูสะอาดดี พอผมเสร็จแล้วจะกลับมาคุยอีกครั้ง</Dialogue>
+        <Dialogue>~o~Talon~s~: ได้เลย!</Dialogue>
+        <Dialogue>ไปคุยกับ ~o~ผู้ต้องสงสัย~s~ คนสุดท้าย</Dialogue>
+    </Suspect2>
+
+    <Suspect3>
+        <Dialogue>คุยกับ ~o~เธอ~s~ โดยใช้ </Dialogue>
+        <Dialogue>~y~คุณ~s~: สวัสดีครับคุณผู้หญิง! ผมเป็นนักสืบในคดีนี้ ช่วยบอกชื่อคุณได้ไหม?</Dialogue>
+        <Dialogue>~o~ผู้ต้องสงสัย~s~: สวัสดี ฉันชื่อ Nylah Lane</Dialogue>
+        <Dialogue>~y~คุณ~s~: รับทราบ ศูนย์วิทยุ ขอเช็กชื่อ Nylah Lane ให้หน่อยได้ไหม?</Dialogue>
+        <Dialogue>รับทราบ กำลังค้นหา</Dialogue>
+        <Dialogue>~b~Nylah Lane~s~</Dialogue>
+        <Dialogue>~g~ไม่มีหมายจับ~s~</Dialogue>
+        <Dialogue>~g~ไม่เคยถูกจับกุม</Dialogue>
+        <Dialogue>~y~ใบสั่ง 1 รายการ: จอดรถในที่จอดรถคนพิการ~s~</Dialogue>
+        <Dialogue>~y~คุณ~s~: โอเค ฟังดูไม่มีปัญหา คุณอาศัยอยู่ที่ไหน?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ฉันอยู่ที่ Vinewood Hills ฉันมีอพาร์ตเมนต์อยู่ที่นั่น</Dialogue>
+        <Dialogue>~y~คุณ~s~: ว้าว เป็นที่อยู่อาศัยที่ดีเลยนะ! ขอผมดูโทรศัพท์มือถือของคุณได้ไหม?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ได้สิ มันอยู่ใน... โอ้ ฉิบหาย อยู่ไหนเนี่ย?... หรือฉันอาจจะลืมไว้ในรถก็ได้</Dialogue>
+        <Dialogue>~y~คุณ~s~: อ้อ หวังว่าจะเป็นแบบนั้น แล้วคุณขับรถอะไร?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ฉันขับ... เอ่อ... Grotti ... Stinger ใช่</Dialogue>
+        <Dialogue>~y~คุณ~s~: โอเค แล้วทะเบียนรถล่ะ?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ... เอ่อ ฉันไม่รู้</Dialogue>
+        <Dialogue>~y~คุณ~s~: คุณไม่รู้ทะเบียนรถของตัวเองงั้นเหรอ?</Dialogue>
+        <Dialogue>~o~Nylah~s~: คือ... มันอธิบายยาก...</Dialogue>
+        <Dialogue>~y~คุณ~s~: โอเค ช่างมัน ศูนย์วิทยุ ผมขอตรวจสอบ ~b~Grotti Stinger~s~ เจ้าของชื่อ ~b~Nylah Lane~s~</Dialogue>
+        <Dialogue>รับทราบ กำลังค้นหา</Dialogue>
+        <Dialogue>ไม่พบข้อมูลที่ตรงกัน ขอฉันตรวจสอบจากชื่อเจ้าของแทน</Dialogue>
+        <Dialogue>ฉันพบรถอีกคันที่ลงทะเบียนในชื่อเจ้าของคนนี้:</Dialogue>
+        <Dialogue>~b~58RLD582~s~</Dialogue>
+        <Dialogue>~y~รุ่นรถ~s~: Obey Tailgater</Dialogue>
+        <Dialogue>~b~เจ้าของ~s~: Nylah Lane</Dialogue>
+        <Dialogue>~y~คุณ~s~: น่าสนใจนะ คุณผู้หญิง ทำไมคุณถึงโกหกเรื่องรถของตัวเอง?</Dialogue>
+        <Dialogue>~o~Nylah~s~: คุณหมายถึงอะไร? คือ... ฉันมีรถ 2 คัน... หรือเปล่านะ?</Dialogue>
+        <Dialogue>~y~คุณ~s~: ตลกดีนะ แล้วคุณโกหกเรื่องโทรศัพท์ด้วยหรือเปล่า?</Dialogue>
+        <Dialogue>~o~Nylah~s~: คุณเจอมันแถวนี้เหรอ? นั่นแหละถึงได้ถามใช่ไหม?</Dialogue>
+        <Dialogue>~y~คุณ~s~: ... คุณเกี่ยวข้องอะไรกับผู้ตาย?</Dialogue>
+        <Dialogue>~o~Nylah~s~: เธอเป็นลูกพี่ลูกน้องของฉัน และเธอติดหนี้ฉัน เยอะมาก</Dialogue>
+        <Dialogue>~y~คุณ~s~: นั่นเป็นเหตุผลที่คุณฆ่าเธอหรือเปล่า?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ฉันแค่ขับรถไปหาที่บ้านเพื่อทวงเรื่องหนี้เท่านั้น</Dialogue>
+        <Dialogue>~y~คุณ~s~: ขอบคุณสำหรับความร่วมมือ ผมจะกลับมาคุยกับคุณอีก</Dialogue>
+        <Dialogue>ไปคุยกับ ~b~เจ้าหน้าที่ Erika~s~ อีกครั้ง</Dialogue>
+    </Suspect3>
+
+    <Officer3>
+        <Dialogue>กลับไปคุยกับ ~b~เจ้าหน้าที่ตำรวจ~w~ อีกครั้งโดยใช้ </Dialogue>
+        <Dialogue>~y~คุณ~s~: เรียบร้อยแล้ว ผมตรวจจุดเกิดเหตุและคุยกับผู้ต้องสงสัยครบแล้ว</Dialogue>
+        <Dialogue>~b~Erika~s~: แล้วคุณพอจะรู้ไหมว่าใครคือฆาตกร?</Dialogue>
+        <Dialogue>กด {1} ~r~สำหรับ Belle Hamilton~s~, {2} ~o~สำหรับ Talon Knight~s~ หรือ {3} ~y~สำหรับ Nylah Lane~s~!</Dialogue>
+
+        <Dialogue>~y~คุณ~s~: ... ~r~Belle Hamilton~s~!</Dialogue>
+        <Dialogue>~y~คุณ~s~: คุณ Hamilton ไม่อยากให้ผมดูข้อมูลในโทรศัพท์ และยังบอกว่าเธออยู่ในบริเวณนี้ตอนเกิดเหตุ!</Dialogue>
+        <Dialogue>~y~คุณ~s~: เธอคือฆาตกร!</Dialogue>
+
+        <Dialogue>~y~คุณ~s~: ... ~o~Talon Knight~s~!</Dialogue>
+        <Dialogue>~y~คุณ~s~: คุณ Knight ไม่ชอบผู้ตายและยังอาศัยอยู่ใกล้ ๆ !</Dialogue>
+        <Dialogue>~y~คุณ~s~: เขายังไม่สามารถเอาโทรศัพท์มือถือมาให้ดูได้ด้วย! เขาคือฆาตกร!</Dialogue>
+
+        <Dialogue>~y~คุณ~s~: ... ~y~Nylah Lane~s~!</Dialogue>
+        <Dialogue>~y~คุณ~s~: คุณ Lane อยู่ในบริเวณนั้นตอนเกิดเหตุและยังเป็นญาติกับผู้ตาย!</Dialogue>
+        <Dialogue>~y~คุณ~s~: เธอโกหกเรื่องรถและโทรศัพท์มือถือของเธอ!</Dialogue>
+        <Dialogue>~y~คุณ~s~: โทรศัพท์ของเธอแสดงรถของเธอ เธอทำมันตกไว้ในที่เกิดเหตุ เธอคือฆาตกร!</Dialogue>
+
+        <Dialogue>~b~Erika~s~: อ๋อ เข้าใจแล้ว! ไปจับกุม ~r~ผู้ต้องสงสัย~s~ ได้เลย!</Dialogue>
+    </Officer3>
+
+    <Arrest>
+        <Text>คุณจับกุม ~r~ฆาตกร~s~ ได้สำเร็จ! ~g~เคลียร์พื้นที่เกิดเหตุ~s~!</Text>
+        <Text>โอ้ไม่ คุณจับผิดคน ~y~ผิด~s~! ~g~เคลียร์พื้นที่เกิดเหตุ~s~!</Text>
+        <Text>~o~ผู้ต้องสงสัย~s~ เสียชีวิตแล้ว~r~!~s~{0}สถานการณ์ ~g~Code 4~s~, ~g~เคลียร์พื้นที่เกิดเหตุ~s~!</Text>
+        <Text>~b~เจ้าหน้าที่ตำรวจ~s~ เสียชีวิตแล้ว~r~!~s~{0}สถานการณ์ ~g~Code 4~s~.</Text>
+
+    </Arrest>
+
+</SolveMurder2>
